@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {3A68AC78-7A4E-42DB-ADDF-441AB3196C7F}
+database: master
+path: /sitecore/content/SiteContent/Global Components/Accordions/Admissions FAQ
+parent: {E7E31D3B-AC36-4EE7-8D44-38AD6832895E}
+name: Admissions FAQ
+master: {00000000-0000-0000-0000-000000000000}
+template: {63AA535F-1989-440D-B5F1-9BE0673C1005}
+templatekey: Accordion Component
+created: 20171025T221422Z
+
+----version----
+language: en
+version: 1
+revision: 13ff22e9-2356-42fe-8da4-1346486e308a
+
+----field----
+field: {5BA1E1AD-C030-453C-ACF8-E486CEC932D1}
+name: Header
+key: header
+content-length: 26
+
+Frequently Asked Questions
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171025T221422Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+13ff22e9-2356-42fe-8da4-1346486e308a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171025T221450Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

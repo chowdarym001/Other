@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {CCA3A29B-AB6C-4075-AAB1-A05CAAF52BD2}
+database: master
+path: /sitecore/content/Global/Navigation/Header Navigation/Locations/Minnesota/Moorhead
+parent: {012BA671-D7A4-4F73-A6FC-AA1B250A0F0B}
+name: Moorhead
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F80CBD-B1B3-4EC7-BFCA-24539C518545}
+templatekey: Menu Link
+created: 20171017T144053Z
+
+----version----
+language: en
+version: 1
+revision: 82b45ec6-2b62-45cc-b58c-d9fcf8edc586
+
+----field----
+field: {F6AC3504-C946-428E-8846-D296FF9CF594}
+name: Display Text
+key: display text
+content-length: 8
+
+Moorhead
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171017T144053Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+82b45ec6-2b62-45cc-b58c-d9fcf8edc586
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171017T144053Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida

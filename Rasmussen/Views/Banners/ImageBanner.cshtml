@@ -1,0 +1,55 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Rasmussen.Models.ImageBannerTemplate>
+
+<section class="full-hero with-image @(Model.BannerSize != null ? Model.BannerSize.Value : "xtall")" @if (IsInEditingMode)
+                                                                                                     {<text>style="background-color: lightgray; height: 500px;"</text>}>
+    @if (IsInEditingMode)
+    {
+        <div>
+            @RenderImage(i => i.ExtraLarge, isEditable: true)
+        </div>
+    }
+    else
+    {
+        <div class="full-hero-image" data-interchange="[@if (Model.Small != null)
+                                                        {
+                                                            @Url.Content(Model.Small.Src)
+                                                        }, small], [ @if (Model.SmallWide != null)
+                                                                     {
+                                                                         @Url.Content(Model.SmallWide.Src)
+                                                                     }, small-wide], [ @if (Model.Medium != null)
+                                                                                       {
+                                                                                           @Url.Content(Model.Medium.Src)
+                                                                                       }, medium], [ @if (Model.MediumTall != null)
+                                                                                                     {
+                                                                                                         @Url.Content(Model.MediumTall.Src)
+                                                                                                     }, medium-tall], [ @if (Model.ExtraLarge != null)
+                                                                                                                        {
+                                                                                                                            @Url.Content(Model.ExtraLarge.Src)
+                                                                                                                        }, xlarge], [ @if (Model.ExtraExtraLarge != null)
+                                                                                                                                      {
+                                                                                                                                          @Url.Content(Model.ExtraExtraLarge.Src)
+                                                                                                                                      }, xxxlarge]">
+        </div>
+    }
+    <div class="grid-container">
+        <div class="grid-x align-middle">
+            <div class="cell medium-tall-6 large-7">
+                <div class="full-hero-copy">
+                    @if (IsInEditingMode || !string.IsNullOrWhiteSpace(Model.SubHeader))
+                    {
+                        <h2 class="page-title-secondary">@Editable(s => s.SubHeader)</h2>
+                    }
+                    <h1 class="page-title-primary">@Editable(s => s.Header)</h1>
+                    @if (IsInEditingMode || !string.IsNullOrWhiteSpace(Model.DisplayText))
+                    {
+                        <p>@Editable(s => s.DisplayText)</p>
+                    }
+                    @if (IsInEditingMode || Model.CTA != null)
+                    {
+                        @RenderLink(s => s.CTA, new System.Collections.Specialized.NameValueCollection { { "class", "button" } }, true)
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

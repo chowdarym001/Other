@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {9A514F88-7BD5-421A-85D4-0B0AD792222C}
+database: master
+path: /sitecore/content/Global/Navigation/Header Navigation/Areas of Study/Justice Studies/About Justice Studies
+parent: {698E2BB0-1A9B-4D32-9955-9D5E8EF4611A}
+name: About Justice Studies
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F80CBD-B1B3-4EC7-BFCA-24539C518545}
+templatekey: Menu Link
+created: 20171017T194844Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+650
+----version----
+language: en
+version: 1
+revision: 34229fe1-c2c1-4356-8ca7-d2edd1151ce3
+
+----field----
+field: {F6AC3504-C946-428E-8846-D296FF9CF594}
+name: Display Text
+key: display text
+content-length: 35
+
+About the School of Justice Studies
+----field----
+field: {D18863F9-BD46-47A1-BE53-A8B002D414A3}
+name: Mobile Only
+key: mobile only
+content-length: 1
+
+1
+----field----
+field: {CBEBDFEB-2F51-4BD8-B2B9-D8FFB9F75D2D}
+name: Has Divider
+key: has divider
+content-length: 1
+
+1
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171017T194844Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+34229fe1-c2c1-4356-8ca7-d2edd1151ce3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171017T200052Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida

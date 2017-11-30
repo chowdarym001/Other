@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {03FE68E9-2B54-470B-B7F9-02B4E986D67D}
+database: master
+path: /sitecore/content/Rasmussen/AreasOfStudy
+parent: {110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
+name: AreasOfStudy
+master: {00000000-0000-0000-0000-000000000000}
+template: {B57C5600-7379-4A72-B34B-D9E9FDACC852}
+templatekey: Content Page
+created: 20171012T150342Z
+
+----version----
+language: en
+version: 1
+revision: a31767b5-1df0-48da-8fb3-5b795b3b20aa
+
+----field----
+field: {86B47E53-8BD3-459D-88D7-32A8687177C1}
+name: Title
+key: title
+content-length: 14
+
+Areas of Study
+----field----
+field: {76F8C8F5-562E-4D91-AF07-9DAAE05EB3AC}
+name: Page Class
+key: page class
+content-length: 10
+
+page-areas
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+Areas of Study
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 880
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{F9658522-4F0A-436B-A52D-0E6AF521933B}" p:before="*" s:ds="{78EA6C70-5BE4-4834-9E9E-1BEAF0EED271}" s:id="{EA60E12C-3982-4B5A-BAED-241890655266}" s:ph="/Body/contentcards" /><r uid="{BD122BAB-DC0E-4E8B-AB5C-F6A6CE817FCC}" p:after="r[@uid='{F9658522-4F0A-436B-A52D-0E6AF521933B}']" s:ds="{6D4A7A7C-1471-47AC-83DB-44AA9171EE79}" s:id="{EA60E12C-3982-4B5A-BAED-241890655266}" s:ph="/Body/contentcards" /><r uid="{EBB6F6D4-6667-4110-B4DF-8E756C4B92E4}" p:after="r[@uid='{BD122BAB-DC0E-4E8B-AB5C-F6A6CE817FCC}']" s:ds="{2A4544B3-5257-4090-9C45-A2978A61555C}" s:id="{68D5ABB6-1629-4089-A7E1-345D612993C4}" s:ph="Banner" /><r uid="{9C62EF6C-DA0C-4555-B950-56430AD4ABEF}" p:after="r[@uid='{EBB6F6D4-6667-4110-B4DF-8E756C4B92E4}']" s:id="{9A270AB9-BB6F-4C5A-A830-F612C71534FC}" s:ph="Body" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171012T150342Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a31767b5-1df0-48da-8fb3-5b795b3b20aa
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171023T182159Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

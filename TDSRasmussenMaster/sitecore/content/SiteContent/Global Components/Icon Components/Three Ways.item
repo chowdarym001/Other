@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {069D66DE-68E8-40CA-A9CC-762F1FD3CFDB}
+database: master
+path: /sitecore/content/SiteContent/Global Components/Icon Components/Three Ways
+parent: {17413A6B-FA89-4145-BECE-0DBD516DA557}
+name: Three Ways
+master: {00000000-0000-0000-0000-000000000000}
+template: {22D0C6E8-6789-4F5E-8D7B-26B6B4550507}
+templatekey: Icon Card Component
+created: 20171025T210432Z
+
+----version----
+language: en
+version: 1
+revision: c9734c77-c5cb-449f-9744-29d17b217d88
+
+----field----
+field: {5BA1E1AD-C030-453C-ACF8-E486CEC932D1}
+name: Header
+key: header
+content-length: 33
+
+Three quick ways to make contact:
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171025T210432Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c9734c77-c5cb-449f-9744-29d17b217d88
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171025T210609Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

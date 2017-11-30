@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {A0C5E6A6-5804-4C91-A284-EDE806CA047E}
+database: master
+path: /sitecore/content/SiteContent/Grids/Nursing
+parent: {A75C9B29-F1BB-49D4-8824-4C811E16BB73}
+name: Nursing
+master: {00000000-0000-0000-0000-000000000000}
+template: {AECE3A4E-2210-497E-96BC-8067B712D108}
+templatekey: Grid Component
+created: 20171026T200629Z
+
+----version----
+language: en
+version: 1
+revision: 4ddd8dc6-c130-4425-bec0-1fcdfbab56d0
+
+----field----
+field: {5BA1E1AD-C030-453C-ACF8-E486CEC932D1}
+name: Header
+key: header
+content-length: 19
+
+Choose Your Program
+----field----
+field: {A159EAD6-CF23-4119-9F4A-ACCCF5A37D8C}
+name: Sub Header
+key: sub header
+content-length: 115
+
+From all-online to blended courses, our nursing programs deliver the education you need to get the degree you want.
+----field----
+field: {AA1A5631-AE9A-43DB-BA51-D948609AF741}
+name: Footer Title
+key: footer title
+content-length: 48
+
+Not sure which nursing program is right for you?
+----field----
+field: {8BECCA2E-DE26-416D-BC5E-946CF36A93DF}
+name: Footer Text
+key: footer text
+content-length: 372
+
+A good place to start is asking yourself whether you want to work directly with patients (steering towards a Practical or Professional nursing degree), or whether you&rsquo;re more suited to an administrative or leadership role (more an RN or Master of Science in Nursing). If you still have questions, a <a href="#" class="inline-link-arrow">Program Manager can help</a>.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171026T200629Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4ddd8dc6-c130-4425-bec0-1fcdfbab56d0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171026T200722Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

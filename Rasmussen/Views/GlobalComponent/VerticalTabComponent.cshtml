@@ -1,0 +1,38 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Rasmussen.Models.IVerticalTabComponent>
+
+<div class="section section verticalNav" id="@Model.Id.ToString()">
+    <div class="grid-container">
+        <div class="grid-x grid-margin-y">
+            <div class="cell">
+                <div class="grid-x accortabs">
+                    <div class="cell large-3">
+                        @if (!IsInEditingMode)
+                        {
+                            <section class="accortabs-tabs">
+                                <ul class="vertical tabs" id="tabs_@Model.Id.ToString()"></ul>
+                            </section>
+                        }
+                    </div>
+                    <div class="cell large-9">
+                        @*Removing classes in exp editor, causing js issues*@
+                        <section class="accortabs-content">
+                            <div class="tabs-content" @if (!IsInEditingMode){<text>data-tabs-content="tabs_@Model.Id.ToString()"</text>}>
+                                @Html.Sitecore().Placeholder("verticaltabs")
+                            </div>
+                        </section>
+                        <footer class="accortabs-footer">
+                            <h2 class="section-title-quaternary">
+                                @Editable(t => t.FooterText)<br>
+                                @RenderLink(t => t.FooterLink, new NameValueCollection {{"class", "inline-link-arrow"}}, true)
+                            </h2>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@if (!IsInEditingMode)
+{
+    @Scripts.Render("~/bundles/js/verticalnav")
+}

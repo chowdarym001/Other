@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {AB2A47B7-AA81-40CB-9F20-A4A1C9DE045E}
+database: master
+path: /sitecore/templates/User Defined/Base Templates/Base Fields/Image Field
+parent: {95652F9D-4666-4EB5-B9EF-11C43CD3D7D2}
+name: Image Field
+master: {00000000-0000-0000-0000-000000000000}
+template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
+templatekey: Template
+created: 20171020T204105Z
+
+----field----
+field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
+name: __Base template
+key: __base template
+content-length: 38
+
+{EF0979B9-E522-4E05-A7D1-FD88BAFFAC05}
+----version----
+language: en
+version: 1
+revision: d7a4ffbf-4b71-4fe6-b70b-44d4884cde34
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171020T204105Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d7a4ffbf-4b71-4fe6-b70b-44d4884cde34
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171020T210025Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida

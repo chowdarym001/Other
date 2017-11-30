@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {8520CF31-CBD5-4EAC-B726-7B8AF5121D42}
+database: master
+path: /sitecore/templates/User Defined/Content Templates/LinkCardComponent
+parent: {D6758F8E-6503-4C22-BD07-D578EC3D5E1E}
+name: LinkCardComponent
+master: {00000000-0000-0000-0000-000000000000}
+template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
+templatekey: Template
+created: 20171020T160100Z
+
+----field----
+field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
+name: __Base template
+key: __base template
+content-length: 38
+
+{8D9C9495-292C-42FA-8A1D-06B4130F75A2}
+----field----
+field: {F7D48A55-2158-4F02-9356-756654404F73}
+name: __Standard values
+key: __standard values
+content-length: 38
+
+{8257177B-4B7E-4C12-BAE6-C7E7A40A7895}
+----version----
+language: en
+version: 1
+revision: a6c2428b-14f9-4ceb-bff5-2b666c7294df
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171020T160101Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a6c2428b-14f9-4ceb-bff5-2b666c7294df
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171020T160144Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

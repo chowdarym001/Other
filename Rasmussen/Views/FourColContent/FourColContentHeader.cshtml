@@ -1,0 +1,26 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Rasmussen.Models.FourColumnComponent>
+
+<div class="divider grid-container">
+    <hr class="rule-stripe ras">
+</div>
+<section class="section student-approach">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-y">
+            <div class="cell">
+                <header class="section-header">
+                    <h1 class="section-title-primary">@Editable(s => s.Header)</h1>
+                    <p>@Editable(s => s.SubHeader)
+                    @RenderLink(s => s.CTA, new NameValueCollection { { "class", "inline-link-arrow" } }, true)</p>
+                </header>
+            </div>
+            <div class="cell">
+                <div class="student-approach-grid grid-x grid-margin-x medium-up-2 xlarge-up-4">
+                    @Html.Sitecore().Placeholder("FourColContent")
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="divider grid-container">
+    <hr class="rule-stripe ras">
+</div>

@@ -1,0 +1,12 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Rasmussen.Models.IAccordionComponent>
+
+<li class="accordion-item" @if(!IsInEditingMode) {<text>data-accordion-item</text>}>
+    <a href="#" class="accordion-title">@Editable(a => a.Header)</a>
+    <div @if(!IsInEditingMode) {<text>class="accordion-content" data-tab-content</text>}>
+
+        <ul class="accordion" @if (!IsInEditingMode){<text>data-accordion data-multi-expand="true" data-allow-all-closed="true"</text>}>
+            @Html.Sitecore().DynamicPlaceholder("subaccordion")
+        </ul>
+
+    </div>
+</li>

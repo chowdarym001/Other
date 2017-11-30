@@ -1,0 +1,14 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Rasmussen.Models.ISimpleBannerTemplate>
+
+<section class="full-hero @(Model.BackgroundColor != null ? "text-priority " + Model.BackgroundColor.Value : "minimal")">
+    <div class="grid-container">
+        <div class="grid-x align-middle">
+            <div class="cell">
+                <div class="full-hero-copy">
+                    <h1 class="page-title-primary">@Editable(s => s.Header)</h1>
+                    <h3 class="page-title-tertiary">@Editable(s => s.SubHeader)</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {4AEDEF4E-2BAE-4398-B1CA-F48EC6125B68}
+database: master
+path: /sitecore/templates/User Defined/Content Templates/Global Component/Icon Card Component/__Standard Values
+parent: {22D0C6E8-6789-4F5E-8D7B-26B6B4550507}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {22D0C6E8-6789-4F5E-8D7B-26B6B4550507}
+templatekey: Icon Card Component
+created: 20171025T202711Z
+
+----version----
+language: en
+version: 1
+revision: d0c41998-fd78-4caa-b23b-6ec095c2a74d
+
+----field----
+field: {5BA1E1AD-C030-453C-ACF8-E486CEC932D1}
+name: Header
+key: header
+content-length: 5
+
+$name
+----field----
+field: {DF555BAC-C7FF-47DD-9C5D-C7D3518D8692}
+name: Background Color
+key: background color
+content-length: 38
+
+{76D7B33A-66A8-499F-9A6F-A887C7A60A40}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171025T202711Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d0c41998-fd78-4caa-b23b-6ec095c2a74d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171025T210531Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida

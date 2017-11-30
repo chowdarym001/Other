@@ -1,0 +1,68 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Rasmussen.Models.MetaData>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>@Model.Title @Model.TitleBase</title>
+    <meta name="description" content="@Model.MetaDescription">
+    <meta name="keywords" content="@Model.MetaKeywords">
+    <!-- project styles -->
+    @Styles.Render("~/bundles/css")
+    @if (IsInEditingMode)
+    {
+        <style type="text/css">.scEmptyPlaceholder { min-width: 100px;}</style>
+    }
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body class="@Model.PageClass">
+    <div class="off-canvas-wrapper">
+        <header class="site-header" role="banner">
+            @Html.Sitecore().Placeholder("Header")
+            @if (!string.IsNullOrWhiteSpace(Model.BorderColor))
+            {
+                <hr class="bar-stripe rsn">
+            }
+        </header>
+        @Html.Sitecore().Placeholder("mobileheader")
+        <div class="off-canvas-content" data-off-canvas-content>
+            <main class="main-contents" id="main-contents">
+                @Html.Sitecore().Placeholder("Banner")
+                @Html.Sitecore().Placeholder("Body")
+                @Html.Sitecore().Placeholder("requestinformation")
+            </main>
+            <footer class="site-footer" role="contentinfo">
+                @Html.Sitecore().Placeholder("Footer")
+            </footer>
+            <div class="off-canvas position-bottom site-footer-disclosures" id="offCanvasFooterDisclosures" data-off-canvas data-transition="push">
+                <div class="grid-container">
+                    <div class="grid-x">
+                        <div class="cell">
+                            <div class="site-footer-disclosures-content">
+                                <h3>Page disclosures</h3>
+                                <ol>
+                                    <li>Completion time is dependent on transfer credits accepted and the number of courses completed each term.</li>
+                                    <li>Bureau of Labor Statistics, U.S. Department of Labor, Occupational Outlook Handbook, [career information accessed February 11, 2016] <a class="inline-link-external" href="http://www.bls.gov/ooh/" target="_blank">www.bls.gov/ooh/</a>. Employment conditions in your area may vary.] Reflects a Bachelor's Degree in Business Management, Business Analysis and Business Management Core specializations, Rasmussen College.</li>
+                                </ol>
+                                <button class="close-button" aria-label="Close disclosure content" type="button" data-close>
+                                    <i class="fa fa-times" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="svg-sprite"></div>
+        </div>
+    </div>
+     
+    @Scripts.Render("~/bundles/js")
+    @Scripts.Render("~/bundles/js/rasmussen")
+</body>
+</html>

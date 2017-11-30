@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {2A4544B3-5257-4090-9C45-A2978A61555C}
+database: master
+path: /sitecore/content/SiteContent/Banners/Areas Of Study
+parent: {29607970-E83C-43CA-910C-864346ABF184}
+name: Areas Of Study
+master: {00000000-0000-0000-0000-000000000000}
+template: {E2E71411-EA0C-40AD-A9ED-6357933C57A9}
+templatekey: Simple Banner Template
+created: 20171012T185643Z
+
+----version----
+language: en
+version: 1
+revision: 5276c4a9-c4f5-495d-aa98-349926d0352b
+
+----field----
+field: {5BA1E1AD-C030-453C-ACF8-E486CEC932D1}
+name: Header
+key: header
+content-length: 14
+
+Areas Of Study
+----field----
+field: {A159EAD6-CF23-4119-9F4A-ACCCF5A37D8C}
+name: Sub Header
+key: sub header
+content-length: 49
+
+Seven schools. Over 70 career-enriching programs.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171012T185643Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5276c4a9-c4f5-495d-aa98-349926d0352b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171012T185701Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida

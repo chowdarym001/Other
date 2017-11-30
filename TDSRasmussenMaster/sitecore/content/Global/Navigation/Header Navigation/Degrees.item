@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {50E6AF18-BC1A-4C04-AE01-28024B1FEB68}
+database: master
+path: /sitecore/content/Global/Navigation/Header Navigation/Degrees
+parent: {FB7D7755-A505-408C-9BDB-08F8FD333952}
+name: Degrees
+master: {00000000-0000-0000-0000-000000000000}
+template: {E87E2B0C-FE35-4D7F-ADD8-2C99D9430E5E}
+templatekey: Top Menu Link
+created: 20171017T140519Z
+
+----version----
+language: en
+version: 1
+revision: 97efaf1e-8f71-4038-bb4c-761e729f3d36
+
+----field----
+field: {17EA72E7-2E79-411A-A042-1B04F3CD86D1}
+name: Mobile Display
+key: mobile display
+content-length: 16
+
+Find your degree
+----field----
+field: {F6AC3504-C946-428E-8846-D296FF9CF594}
+name: Display Text
+key: display text
+content-length: 7
+
+Degrees
+----field----
+field: {EF2EE2E2-7AF2-48B9-9E49-6764ABBDCCC0}
+name: Is Centered
+key: is centered
+content-length: 1
+
+1
+----field----
+field: {66B7D62E-37E1-474B-88BA-853355EF6C84}
+name: Link
+key: link
+content-length: 133
+
+<link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{A28D38AD-7342-4B8E-84B4-1B4050292152}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171017T140519Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+97efaf1e-8f71-4038-bb4c-761e729f3d36
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171017T202826Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida

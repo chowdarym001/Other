@@ -1,0 +1,30 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Rasmussen.Models.GridImageCard>
+
+<div class="cell large-6 small-order-2 large-order-2 explore-grid-hero explore-grid-featured-@(Model.CssClass)"
+    data-interchange="[@(Model.Small != null ? Model.Small.Src : ""), small], [@(Model.Medium != null ? Model.Medium.Src : ""), medium], [@(Model.Large != null ? Model.Large.Src : ""), large], [@(Model.ExtraLarge != null ? Model.ExtraLarge.Src : ""), xlarge]">
+    <div class="grid-container">
+        <div class="grid-x">
+            <article class="explore-grid-content light-on-dark">
+                <h6 class="section-title-senary">@Editable(g => g.SubHeader)</h6>
+                <h3 class="section-title-tertiary">@Editable(g => g.Header)</h3>
+                @if (IsInEditingMode)
+                {
+                    <p>@Editable(g => g.DisplayText)</p>
+                }
+                else if (!string.IsNullOrWhiteSpace(Model.DisplayText))
+                {
+                    <p>@Model.DisplayText</p>
+                }
+                <p>
+                    @using (BeginRenderLink(x => x.CTA, new NameValueCollection { { "class", "inline-link-arrow" } }, true))
+                    {
+                        <span class="link-label">@(Model.CTA != null ? Model.CTA.Text : "More info")</span>
+                        <svg class="svg icon-chevron-right">
+                            <use xlink:href="#icon-chevron-right"></use>
+                        </svg>
+                    }
+                </p>
+            </article>
+        </div>
+    </div>
+</div>

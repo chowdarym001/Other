@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {79486BC7-30C5-40B3-8147-2D4ACC193FA1}
+database: master
+path: /sitecore/content/Global/Selection Items/Degree Types/Certificate
+parent: {C3814217-647C-45F7-A276-E12EE69ED539}
+name: Certificate
+master: {00000000-0000-0000-0000-000000000000}
+template: {CDD5D241-A069-4C8A-BB77-07DB992DF277}
+templatekey: Selection Item
+created: 20171023T160634Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----version----
+language: en
+version: 1
+revision: 57faecf8-e3a1-4047-a6f0-926552e77001
+
+----field----
+field: {FD7D7E80-5BF1-4F4B-B3C3-4103C9DED83D}
+name: Key
+key: key
+content-length: 11
+
+Certificate
+----field----
+field: {662992C7-77CB-403D-8DD5-C2CB2E22C4BE}
+name: Text
+key: text
+content-length: 11
+
+certificate
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171023T160634Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+57faecf8-e3a1-4047-a6f0-926552e77001
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171023T160832Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida

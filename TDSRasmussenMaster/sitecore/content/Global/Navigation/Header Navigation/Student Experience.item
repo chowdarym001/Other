@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {EE32ED2D-7D52-4590-9DB3-4573A5FD6ED9}
+database: master
+path: /sitecore/content/Global/Navigation/Header Navigation/Student Experience
+parent: {FB7D7755-A505-408C-9BDB-08F8FD333952}
+name: Student Experience
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F80CBD-B1B3-4EC7-BFCA-24539C518545}
+templatekey: Menu Link
+created: 20171017T140632Z
+
+----version----
+language: en
+version: 1
+revision: b6e0ae96-7235-45cd-99f8-463de2919d9e
+
+----field----
+field: {F6AC3504-C946-428E-8846-D296FF9CF594}
+name: Display Text
+key: display text
+content-length: 18
+
+Student Experience
+----field----
+field: {66B7D62E-37E1-474B-88BA-853355EF6C84}
+name: Link
+key: link
+content-length: 133
+
+<link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{47D1C019-C257-4444-8E17-E8DD1D9E7903}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171017T140632Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b6e0ae96-7235-45cd-99f8-463de2919d9e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171026T175106Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida

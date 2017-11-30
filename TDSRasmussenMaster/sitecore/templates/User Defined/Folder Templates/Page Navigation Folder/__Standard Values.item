@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {ABAB9144-4E32-4D40-B893-EB988CB3702C}
+database: master
+path: /sitecore/templates/User Defined/Folder Templates/Page Navigation Folder/__Standard Values
+parent: {DE3CEC20-4C38-4432-B08B-E8CE2438D3B7}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {DE3CEC20-4C38-4432-B08B-E8CE2438D3B7}
+templatekey: Page Navigation Folder
+created: 20171023T204030Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{FD9C7434-EB99-4F31-AA78-F1FB93B7E00C}|{DE3CEC20-4C38-4432-B08B-E8CE2438D3B7}
+----version----
+language: en
+version: 1
+revision: 13b3ee62-2ea3-458b-af60-01b114259252
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171023T204030Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+13b3ee62-2ea3-458b-af60-01b114259252
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171023T204059Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida

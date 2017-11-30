@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {637A16B0-6E4C-43D2-A6B0-18237A8BC02D}
+database: master
+path: /sitecore/content/SiteContent/Global Components/Page Navigation Components/Admissions
+parent: {A3F2A017-39E5-40D5-BEB1-CFBEF16A60F3}
+name: Admissions
+master: {00000000-0000-0000-0000-000000000000}
+template: {FD9C7434-EB99-4F31-AA78-F1FB93B7E00C}
+templatekey: Page Navigation
+created: 20171023T204902Z
+
+----version----
+language: en
+version: 1
+revision: 3219a871-811e-48c5-a54a-5e3b23d0c9f6
+
+----field----
+field: {5BA1E1AD-C030-453C-ACF8-E486CEC932D1}
+name: Header
+key: header
+content-length: 34
+
+Enrolling: Let's do this together.
+----field----
+field: {F6AC3504-C946-428E-8846-D296FF9CF594}
+name: Display Text
+key: display text
+content-length: 237
+
+Congratulations—you’re ready to become a Rasmussen College student! And your Program Manager is right there to help. While the instructions below take you step-by-step through the enrollment process, just reach out if you have questions.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171023T204902Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3219a871-811e-48c5-a54a-5e3b23d0c9f6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171023T204945Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

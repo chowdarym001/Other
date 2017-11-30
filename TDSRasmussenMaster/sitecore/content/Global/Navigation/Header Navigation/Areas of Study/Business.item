@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {DE5647E7-DA7C-4422-A897-11BF72E9296A}
+database: master
+path: /sitecore/content/Global/Navigation/Header Navigation/Areas of Study/Business
+parent: {1AC82C0E-F8ED-4C5B-A109-3BB50B012C31}
+name: Business
+master: {00000000-0000-0000-0000-000000000000}
+template: {E87E2B0C-FE35-4D7F-ADD8-2C99D9430E5E}
+templatekey: Top Menu Link
+created: 20171017T140727Z
+
+----version----
+language: en
+version: 1
+revision: 244b1dad-b552-4855-bea4-e3b50d33cd93
+
+----field----
+field: {F6AC3504-C946-428E-8846-D296FF9CF594}
+name: Display Text
+key: display text
+content-length: 8
+
+Business
+----field----
+field: {17EA72E7-2E79-411A-A042-1B04F3CD86D1}
+name: Mobile Display
+key: mobile display
+content-length: 21
+
+All Business programs
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171017T140727Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+244b1dad-b552-4855-bea4-e3b50d33cd93
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171017T202525Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida

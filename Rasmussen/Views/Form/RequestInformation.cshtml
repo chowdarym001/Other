@@ -1,0 +1,135 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model Rasmussen.Models.RequestInformationModel
+
+<section class="section request-info-area" id="request-info-area">
+    <div class="grid-container">
+        <div class="grid-x">
+            <div class="cell">
+                <header class="section-header">
+                    <h1>@Html.Raw(Model.Title)</h1>
+                </header>
+            </div>
+            <div class="cell">
+                <div class="grid-x grid-margin-x grid-margin-y">
+                    <div class="cell large-4">
+                        @Html.Raw(Model.Body)
+                        
+                    </div>
+                    <div class="cell large-8">
+                        <form id="infoform" action="/Thankyou" class="request-info-form" method="post" data-abide="1gobmc-abide" novalidate="">
+                            <div class="grid-x grid-margin-x grid-margin-y">
+                                <div class="cell">
+                                    <div data-abide-error="" class="alert callout" style="display: none;">
+                                        <p>
+                                            <i class="fa fa-fa-exclamation-triangle "></i> There are some errors in the form. Please correct the errors and submit again.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="cell medium-tall-6">
+                                    <fieldset>
+                                        <legend>Contact Information</legend>
+                                        <div class="floated-label-wrapper">
+                                            <label for="first-namee">First Name</label>
+                                            <input type="text" id="first-name" name="first-name" placeholder="First Name" required="">
+                                            <div class="form-error" data-form-error-for="first-name">
+                                                <p>Please enter your first name.</p>
+                                            </div>
+                                        </div>
+                                        <div class="floated-label-wrapper">
+                                            <label for="last-namee">Last Name</label>
+                                            <input type="text" id="last-name" name="last-name" placeholder="Last Name" required="">
+                                            <div class="form-error" data-form-error-for="last-name">
+                                                <p>Please enter your last name.</p>
+                                            </div>
+                                        </div>
+                                        <div class="floated-label-wrapper">
+                                            <label for="email-address">Email Address</label>
+                                            <input type="text" id="email-address" name="email-address" placeholder="Email Address" required="">
+                                            <div class="form-error" data-form-error-for="email-address">
+                                                <p>Please enter your email address.</p>
+                                            </div>
+                                        </div>
+                                        <div class="floated-label-wrapper">
+                                            <label for="phone-number">Phone Number</label>
+                                            <input type="text" id="phone-number" name="phone-number" placeholder="Phone Number" required="">
+                                            <div class="form-error" data-form-error-for="phone-number">
+                                                <p>Please enter your phone number.</p>
+                                            </div>
+                                        </div>
+                                        <div class="floated-label-wrapper">
+                                            <label for="zip-code">Zip Code</label>
+                                            <input type="text" id="zip-code" name="zip-code" placeholder="Zip Code" required="">
+                                            <div class="form-error" data-form-error-for="zip-code">
+                                                <p>Please enter your zip code.</p>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                                <div class="cell medium-tall-6">
+                                    <fieldset>
+                                        <legend>Program Preferences</legend>
+                                        <div class="form-select-group">
+                                            <label for="preferred_school">Prerferred School</label>
+                                            <select id="preferred_school" name="preferred_school" required="">
+                                                <option selected="selected" value="">I'm interested in ...</option>
+                                                <option value="bu">School of Business</option>
+                                                <option value="de">School of Design</option>
+                                                <option value="ed">School of Education</option>
+                                                <option value="ah">School of Health Sciences</option>
+                                                <option value="js">School ofJustice Studies</option>
+                                                <option value="nu">School of Nursing</option>
+                                                <option value="te">School of Technology</option>
+                                            </select>
+                                            <div class="form-error" data-form-error-for="preferred_school">
+                                                <p>Please choose a School of study.</p>
+                                            </div>
+                                        </div>
+                                        <div class="form-select-group">
+                                            <label for="preferred_program">Preferred Program</label>
+                                            <select id="preferred_program" name="preferred_program" required="">
+                                                <option selected="selected" value="">Preferred Program</option>
+                                                <option value="">Undecided</option>
+                                            </select>
+                                            <div class="form-error" data-form-error-for="preferred_program">
+                                                <p>Please choose a program.</p>
+                                            </div>
+                                        </div>
+                                        <div class="form-select-group">
+                                            <label for="preferred_campus">Preferred Campus</label>
+                                            <select id="preferred_campus" name="preferred_campus" required="">
+                                                <option selected="selected" value="">Preferred Campus</option>
+                                                <option value="">Undecided</option>
+                                                <optgroup label="Online Campus">
+                                                    <option value="">Online</option>
+                                                </optgroup>
+                                            </select>
+                                            <div class="form-error" data-form-error-for="preferred_campus">
+                                                <p>Please choose a campus.</p>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                    <div class="request-info-form-cta" onclick="submitform()">
+                                        <input type="submit" class="button" value="Request Info Now">
+                                        
+                                        <div class="request-info-disclosure">
+                                            <input name="successmsg" value="@Model.FormType" style="display:none" />
+                                            @Html.Raw(Model.Disclaimer)
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    function submitform() {
+        document.getElementById("infoform").submit();
+    }
+
+</script>

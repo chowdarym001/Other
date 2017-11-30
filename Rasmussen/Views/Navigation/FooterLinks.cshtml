@@ -1,0 +1,89 @@
+﻿@using Rasmussen.Models
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Rasmussen.Models.Navigation.FooterLinks>
+
+
+<div class="site-footer-disclosure-statement">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-y">
+            <div class="cell">
+                <a href="#">Student Investment Disclosure Information</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="site-footer-metadata-social">
+    <div class="grid-container">
+        <div class="grid-x">
+            <div class="cell medium-tall-7">
+                <div class="site-footer-metadata">
+                    <div class="grid-x small-up-2 small-wide-up-4">
+                        <div class="cell cell-block">
+                            <button aria-label="Open site disclosures" type="button" class="footer-disclosures-toggle" data-toggle="offCanvasFooterDisclosures" aria-expanded="false" aria-controls="offCanvasFooterDisclosures">
+                                @Model.Disclosure.DisplayText
+                                
+                            </button>
+                        </div>
+
+                            @foreach (var link in Model.Footerlink)
+                            {
+                                <div class="cell cell-block">
+
+                                    <a href="@(link.Link != null )">@link.DisplayText</a>
+
+                                </div>
+
+                            }
+                                
+
+                    </div>
+                </div>
+            </div>
+            <div class="cell medium-tall-5">
+                <div class="site-footer-social">
+                    <div class="grid-x small-up-5">
+                        <div class="cell cell-block">
+                            <a href="#">
+                                <svg class="svg icon-social-facebook-square">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-social-facebook-square"></use>
+                                </svg>
+                                <span class="show-for-sr">Connect with Rasmussen College on Facebook</span>
+                            </a>
+                        </div>
+                        <div class="cell cell-block">
+                            <a href="#">
+                                <svg class="svg icon-social-google-plus">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-social-google-plus"></use>
+                                </svg>
+                                <span class="show-for-sr">Connect with Rasmussen College on Google+</span>
+                            </a>
+                        </div>
+                        <div class="cell cell-block">
+                            <a href="#">
+                                <svg class="svg icon-social-instagram">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-social-instagram"></use>
+                                </svg>
+                                <span class="show-for-sr">Connect with Rasmussen College on Instagram</span>
+                            </a>
+                        </div>
+                        <div class="cell cell-block">
+                            <a href="#">
+                                <svg class="svg icon-social-linkedin-square">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-social-linkedin-square"></use>
+                                </svg>
+                                <span class="show-for-sr">Connect with Rasmussen College on LinkedIn</span>
+                            </a>
+                        </div>
+                        <div class="cell cell-block">
+                            <a href="#">
+                                <svg class="svg icon-social-youtube-play">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-social-youtube-play"></use>
+                                </svg>
+                                <span class="show-for-sr">Connect with Rasmussen College on YouTube</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

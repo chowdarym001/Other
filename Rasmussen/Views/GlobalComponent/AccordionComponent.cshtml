@@ -1,0 +1,18 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Rasmussen.Models.IAccordionComponent>
+
+<section class="section admissions-faqs" id="admissions-faqs">
+    <div class="grid-container">
+        <div class="grid-x">
+            <div class="cell">
+                <header class="section-header">
+                    <h1 class="section-title-primary">@Editable(a => a.Header)</h1>
+                </header>
+            </div>
+            <div class="cell">
+                <ul class="accordion" @if(!IsInEditingMode) {<text>data-accordion data-multi-expand="true" data-allow-all-closed="true"</text>}>
+                    @Html.Sitecore().DynamicPlaceholder("topaccordion")
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

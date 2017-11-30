@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {3B0D8226-ED10-4171-B611-8ED53ADDD325}
+database: master
+path: /sitecore/content/SiteContent/Global Components/Search Wizards/Degrees and Areas
+parent: {C3780868-9C59-446F-BB80-D2402A070255}
+name: Degrees and Areas
+master: {00000000-0000-0000-0000-000000000000}
+template: {65025367-D90C-4991-9616-D04DD8FED4A7}
+templatekey: Search Wizard
+created: 20171023T162447Z
+
+----version----
+language: en
+version: 1
+revision: efebaf7a-9cc4-4c77-b13a-ddb15e72c41f
+
+----field----
+field: {103A6554-9BB0-4727-ADBB-AEE97255F2DE}
+name: Top Label
+key: top label
+content-length: 17
+
+I'm looking for a
+----field----
+field: {FAD0E6FE-5CAA-4AC7-8190-91558F0DB493}
+name: Top Dropdown
+key: top dropdown
+content-length: 194
+
+{79486BC7-30C5-40B3-8147-2D4ACC193FA1}|{CB0C1A99-A414-4767-8587-2EDE32D0A96F}|{C20747F0-328D-43D0-A467-CF98F3666FA6}|{7074DC56-E9C7-4080-BC72-D82126C9D4D7}|{922DF080-0DDE-4C71-A3F7-7F78373FF524}
+----field----
+field: {22D6F1F1-489E-40A1-8356-2F8A3860B90D}
+name: Bottom Label
+key: bottom label
+content-length: 2
+
+in
+----field----
+field: {76C99FC6-36B1-41D7-90C4-94A25D587878}
+name: Bottom Dropdown
+key: bottom dropdown
+content-length: 272
+
+{D350FF33-1CFD-4A51-8516-DC8F57202CAB}|{E80C9961-44D9-48FD-A0F4-10166D69712A}|{F3740404-6B64-46C1-B9E3-7623ABC43E97}|{D00EDF6A-612E-4AA4-A7D1-810377540FF3}|{1CD18571-1D50-4D3D-9962-FA3953C2227A}|{59249C77-F0E9-4AB4-85C0-FACA16AD48B8}|{5DDFEE81-6E05-4BE1-A974-D06469798284}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171023T162447Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+efebaf7a-9cc4-4c77-b13a-ddb15e72c41f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171023T163430Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

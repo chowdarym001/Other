@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {C2C96183-81B2-4796-984A-5E524E460A0C}
+database: master
+path: /sitecore/templates/User Defined/Content Templates/Grids/Grid Simple Card/__Standard Values
+parent: {42777D4E-1B0D-4D4D-9013-6F7A90DE3A94}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {42777D4E-1B0D-4D4D-9013-6F7A90DE3A94}
+templatekey: Grid Simple Card
+created: 20171020T180121Z
+
+----version----
+language: en
+version: 1
+revision: 6fd6db90-a0f7-422d-a82a-7c7860a3609b
+
+----field----
+field: {5BA1E1AD-C030-453C-ACF8-E486CEC932D1}
+name: Header
+key: header
+content-length: 5
+
+$name
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171020T180121Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6fd6db90-a0f7-422d-a82a-7c7860a3609b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171020T180124Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida

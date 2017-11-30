@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {B9949035-04CE-4605-A2C0-31DAC875900A}
+database: master
+path: /sitecore/templates/User Defined/Base Templates/Base Rasmussen/__Standard Values
+parent: {FA9076B3-C7F6-4D97-B50D-1597852F4751}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {FA9076B3-C7F6-4D97-B50D-1597852F4751}
+templatekey: Base Rasmussen
+created: 20171012T145732Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 852
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{02085333-DF71-4CD6-9642-CADBB32E84FD}"><r id="{374F3F57-56E9-40FB-AF41-22A69492EAAB}" ph="Header" uid="{8C6895CF-BE4B-4D37-AC58-561D0822CD7E}" /><r id="{3750B9B8-ACEA-44A3-AF08-8088BA7AC10B}" ph="Header" uid="{7C98F407-EDA5-4D50-8339-C009B2C73C61}" /><r id="{7AC72134-7C52-4670-84DC-79F4AAD2D00D}" ph="mobileheader" uid="{36932C2F-D9A8-4C93-8153-9394EC52EFF8}" /><r ds="{1B4578B7-F32B-4EE3-86E6-47868F39EB94}" id="{7FE21ABD-D28F-410A-A3B5-B0BC89DD85A2}" par="" ph="requestinformation" uid="{26069F74-FAA9-44CD-ADB9-9FAE78E197E2}" /><r id="{98CCC913-2E8A-457B-BEC0-C4DCBC2E17CC}" ph="Footer" uid="{38DC48D7-7C7E-47DF-9103-ABED71354E46}" /><r id="{7051FFF2-3D56-4919-8839-28B1A494F2D0}" ph="Footer" uid="{0C0C7FA2-FC9F-4CC5-8F7F-BDD2B2555640}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 447a9d77-3a59-4dc8-b555-c9d8d32d1afb
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171012T145732Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+447a9d77-3a59-4dc8-b555-c9d8d32d1afb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171027T190746Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

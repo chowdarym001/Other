@@ -1,0 +1,143 @@
+----item----
+version: 1
+id: {FCEFD97D-1282-42F2-97AD-3AA6DAF28BA1}
+database: master
+path: /sitecore/content/SiteContent/Banners/HomeBanner
+parent: {29607970-E83C-43CA-910C-864346ABF184}
+name: HomeBanner
+master: {00000000-0000-0000-0000-000000000000}
+template: {B43059DE-E527-4941-9862-EF25E35B7AB7}
+templatekey: Image Banner Template
+created: 20170223T053826Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----version----
+language: en
+version: 1
+revision: fbcea4d5-4e86-41df-a82b-2beeebaeb74c
+
+----field----
+field: {5BA1E1AD-C030-453C-ACF8-E486CEC932D1}
+name: Header
+key: header
+content-length: 35
+
+Our history can change your future.
+----field----
+field: {A159EAD6-CF23-4119-9F4A-ACCCF5A37D8C}
+name: Sub Header
+key: sub header
+content-length: 17
+
+Rasmussen College
+----field----
+field: {38D9B2CB-47DA-425F-A046-3B86CC172628}
+name: CTA
+key: cta
+content-length: 148
+
+<link text="See all degrees" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{A28D38AD-7342-4B8E-84B4-1B4050292152}" />
+----field----
+field: {F6AC3504-C946-428E-8846-D296FF9CF594}
+name: Display Text
+key: display text
+content-length: 208
+
+For 115 years, Rasmussen has created student-first programs that help drive personal and career success. Join our students who strive to let education propel them—not just to better jobs. But greater careers.
+----field----
+field: {DF8D3398-DFE2-4076-B35A-3CAFA8E5C4B7}
+name: Banner Size
+key: banner size
+content-length: 38
+
+{C222C2FB-3834-4DD8-B608-0DF2B908A576}
+----field----
+field: {CE1B295D-8BCE-4EB3-9C9F-6BFD68394721}
+name: Small
+key: small
+content-length: 58
+
+<image mediaid="{A0567A14-A50E-445F-A387-4ADB0A99AD1B}" />
+----field----
+field: {CF30790B-ECB8-4BBC-9A7F-2DF5138AD839}
+name: Small Wide
+key: small wide
+content-length: 58
+
+<image mediaid="{0416314A-D763-47A3-97DA-834991DDF6BC}" />
+----field----
+field: {A59151A7-B791-4208-8439-C851A4FD9AB1}
+name: Medium
+key: medium
+content-length: 58
+
+<image mediaid="{BB4577BA-5C26-4679-A5C6-F5C9DB367197}" />
+----field----
+field: {E961F38F-D277-4B13-8EC9-8DD2CDEF06E4}
+name: Medium Tall
+key: medium tall
+content-length: 58
+
+<image mediaid="{7A643764-EF2F-41AC-A500-562F48254FD5}" />
+----field----
+field: {0837DC0C-1B66-4DCC-966D-4FBD575419A6}
+name: Extra Large
+key: extra large
+content-length: 58
+
+<image mediaid="{1D1C5F1F-3308-4C4B-B746-94317768625A}" />
+----field----
+field: {9B59ACEB-DF9F-4B9B-B631-399DC82931B4}
+name: Extra Extra Large
+key: extra extra large
+content-length: 58
+
+<image mediaid="{5F143100-5D92-49B2-9409-A4CE4A67AFC9}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170220T223233Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fbcea4d5-4e86-41df-a82b-2beeebaeb74c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171023T182736Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida

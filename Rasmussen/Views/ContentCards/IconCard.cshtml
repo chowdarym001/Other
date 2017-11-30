@@ -1,0 +1,26 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Rasmussen.Models.IIconCard>
+
+@{
+    var icon = Model.Icon != null ? Model.Icon.Value : "";
+}
+
+<div class="cell cell-block">
+    <div class="basic-3col-actions-content light-on-dark text-center">
+        <a class="button tertiary" href="#">
+            <svg class="svg @icon">
+                <use xlink:href="#@icon"></use>
+            </svg>
+            <h3 class="section-title-tertiary">
+                @if (IsInEditingMode || !Model.HeaderIsLink)
+                {
+                    @Editable(i => i.Header)
+                }
+                else
+                {
+                    <span class="inline-link-arrow">@Model.Header</span>
+                }
+            </h3>
+            <p>@Editable(i => i.DisplayText)</p>
+        </a>
+    </div>
+</div>

@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {03958632-CF4B-48BD-90C1-C36E40B094B9}
+database: master
+path: /sitecore/content/SiteContent/Accordions/Admissions/Program Classes Sub Items/What are online classes like
+parent: {C4640151-F6F5-4152-9091-F93B37803234}
+name: What are online classes like
+master: {00000000-0000-0000-0000-000000000000}
+template: {C9B2DAAD-C449-4BBB-838F-F5784E9A98C4}
+templatekey: Accordion Item
+created: 20171026T145420Z
+
+----version----
+language: en
+version: 1
+revision: 981c7ce2-d0ae-4f62-ae6d-158daa8d1d74
+
+----field----
+field: {5BA1E1AD-C030-453C-ACF8-E486CEC932D1}
+name: Header
+key: header
+content-length: 29
+
+What are online classes like?
+----field----
+field: {74B245E6-8409-4199-B1EF-5085A1E9B4EE}
+name: Content
+key: content
+content-length: 222
+
+[navigating an online class - we have a lot of Q1 students who are having issues with navigating as well so maybe something more can be incorporated into the orientation?] We could leverage demo video here or blog content.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171026T145420Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+981c7ce2-d0ae-4f62-ae6d-158daa8d1d74
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171026T150950Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

@@ -1,0 +1,10 @@
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Rasmussen.Models.FourColumnCard>
+
+
+<div class="cell cell-block">
+    <section class="student-approach-content">
+        <h4 class="section-title-quaternary">@Editable(s => s.Header)</h4>
+        <p>@Editable(s => s.SubHeader)</p>
+        <p>@RenderLink(s => s.CTA, new NameValueCollection { { "class", "inline-link-arrow" } }, true)</p>
+    </section>
+</div>

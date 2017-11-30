@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {27F2BE1A-1132-476B-8DF6-56B8051D8E41}
+database: master
+path: /sitecore/layout/Placeholder Settings/Grids/Content Cards
+parent: {2F455FD4-A2CD-459A-870E-9661347D40CF}
+name: Content Cards
+master: {00000000-0000-0000-0000-000000000000}
+template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
+templatekey: Placeholder
+created: 20171012T151026Z
+
+----field----
+field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
+name: Placeholder Key
+key: placeholder key
+content-length: 12
+
+contentcards
+----field----
+field: {E391B526-D0C5-439D-803E-17512EAE6222}
+name: Allowed Controls
+key: allowed controls
+content-length: 77
+
+{EA60E12C-3982-4B5A-BAED-241890655266}|{053B4EF9-C1F6-473C-9DDA-3E06F8423D6D}
+----version----
+language: en
+version: 1
+revision: 24b5d49c-1ccc-4cb6-be85-e2eeebd98031
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171012T151026Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+24b5d49c-1ccc-4cb6-be85-e2eeebd98031
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171026T201759Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida

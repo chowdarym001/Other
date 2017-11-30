@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {E01F43AA-E799-4775-A1A1-3F1C2D3A5233}
+database: master
+path: /sitecore/content/SiteContent/Content Cards/Nursing/Explore Other
+parent: {EDCC5DDE-8CDB-4386-A423-6C860B792934}
+name: Explore Other
+master: {00000000-0000-0000-0000-000000000000}
+template: {98A26C25-DBE3-436F-AAB9-E18BA412F7E0}
+templatekey: LinkCard
+created: 20171026T203607Z
+
+----version----
+language: en
+version: 1
+revision: 68415732-69dd-439e-a4cd-2dd95f41867d
+
+----field----
+field: {5BA1E1AD-C030-453C-ACF8-E486CEC932D1}
+name: Header
+key: header
+content-length: 34
+
+Explore Other Health-Related Areas
+----field----
+field: {66B7D62E-37E1-474B-88BA-853355EF6C84}
+name: Link
+key: link
+content-length: 132
+
+<link linktype="internal" text="See all healthcare programs" querystring="" target="" id="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" />
+----field----
+field: {637E842D-C7FF-45A3-A0F4-C8F6D48A651C}
+name: Border Color
+key: border color
+content-length: 38
+
+{453CCEDD-1643-4D20-B4C9-053157B272E6}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171026T203607Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+68415732-69dd-439e-a4cd-2dd95f41867d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171026T203716Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

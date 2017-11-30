@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {1AC82C0E-F8ED-4C5B-A109-3BB50B012C31}
+database: master
+path: /sitecore/content/Global/Navigation/Header Navigation/Areas of Study
+parent: {FB7D7755-A505-408C-9BDB-08F8FD333952}
+name: Areas of Study
+master: {00000000-0000-0000-0000-000000000000}
+template: {E87E2B0C-FE35-4D7F-ADD8-2C99D9430E5E}
+templatekey: Top Menu Link
+created: 20171017T140515Z
+
+----version----
+language: en
+version: 1
+revision: dea8f03b-00cb-4696-9225-a94380370999
+
+----field----
+field: {17EA72E7-2E79-411A-A042-1B04F3CD86D1}
+name: Mobile Display
+key: mobile display
+content-length: 18
+
+All areas of study
+----field----
+field: {F6AC3504-C946-428E-8846-D296FF9CF594}
+name: Display Text
+key: display text
+content-length: 14
+
+Areas of Study
+----field----
+field: {66B7D62E-37E1-474B-88BA-853355EF6C84}
+name: Link
+key: link
+content-length: 163
+
+<link id="{03FE68E9-2B54-470B-B7F9-02B4E986D67D}" querystring="" target="" text="" anchor="" title="" class="" url="/Rasmussen/AreasOfStudy" linktype="internal" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171017T140515Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dea8f03b-00cb-4696-9225-a94380370999
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171019T140613Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

@@ -1,0 +1,101 @@
+----item----
+version: 1
+id: {5F1F5CA8-445B-4BD5-A3A5-C6BA3273B6EF}
+database: master
+path: /sitecore/content/Global/Navigation/Footer Links Disclosure/FooterDisclosureContent
+parent: {FC3FD242-93DE-48A4-B9D3-B4AA4F093A41}
+name: FooterDisclosureContent
+master: {00000000-0000-0000-0000-000000000000}
+template: {F41F1215-F05D-43EA-99AD-EA097194C767}
+templatekey: FooterDisclosure
+created: 20171025T183557Z
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+250
+----version----
+language: en
+version: 1
+revision: f52b5b07-7999-4aab-9ca4-3d0ff82f910a
+
+----field----
+field: {9883FE64-5231-4DD4-8AEB-7849318807A1}
+name: Body
+key: body
+content-length: 133
+
+Bureau of Labor Statistics, U.S. Department of Labor, Occupational Outlook Handbook, [career information accessed February 11, 2016] 
+----field----
+field: {3EDFBB95-3502-4EA3-8557-084FCAACA43E}
+name: BodyOne
+key: bodyone
+content-length: 181
+
+Employment conditions in your area may vary.] Reflects a Bachelor's Degree in Business Management, Business Analysis and Business Management Core specializations, Rasmussen College.
+----field----
+field: {38D9B2CB-47DA-425F-A046-3B86CC172628}
+name: CTA
+key: cta
+content-length: 102
+
+<link text="www.bls.gov/ooh/" linktype="external" url="http://www.bls.gov/ooh/" anchor="" target="" />
+----field----
+field: {5BA1E1AD-C030-453C-ACF8-E486CEC932D1}
+name: Header
+key: header
+content-length: 16
+
+Page disclosures
+----field----
+field: {A159EAD6-CF23-4119-9F4A-ACCCF5A37D8C}
+name: Sub Header
+key: sub header
+content-length: 104
+
+Completion time is dependent on transfer credits accepted and the number of courses completed each term.
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171025T183557Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f52b5b07-7999-4aab-9ca4-3d0ff82f910a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171025T185049Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

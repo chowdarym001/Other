@@ -1,0 +1,9 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Rasmussen.Models.ITabComponent>
+
+<div @if (!IsInEditingMode){<text>class="tabs-panel"</text>} id="@Model.Id.ToString()">
+    <h1 class="section-title-tertiary">@Editable(t => t.TabName)</h1>
+
+    <p>@Editable(t => t.DisplayText)</p>
+
+    @Html.Sitecore().DynamicPlaceholder("tabsections")
+</div>

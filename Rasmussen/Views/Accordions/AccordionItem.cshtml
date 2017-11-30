@@ -1,0 +1,8 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Rasmussen.Models.IAccordionItem>
+
+<li class="accordion-item" @if(!IsInEditingMode) {<text>data-accordion-item</text>}>
+    <a href="#" class="accordion-title">@Editable(a => a.Header)</a>
+    <div @if(!IsInEditingMode) {<text>class="accordion-content" data-tab-content</text>}>
+        <p>@Editable(a => a.Content)</p>
+    </div>
+</li>

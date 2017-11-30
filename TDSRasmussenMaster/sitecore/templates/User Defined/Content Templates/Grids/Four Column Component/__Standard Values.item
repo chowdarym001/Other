@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {1C6DAB80-3E38-4B03-AB3D-A727EBF7EF14}
+database: master
+path: /sitecore/templates/User Defined/Content Templates/Grids/Four Column Component/__Standard Values
+parent: {14AE493B-43A3-4877-BD27-ABF3FDD33871}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {14AE493B-43A3-4877-BD27-ABF3FDD33871}
+templatekey: Four Column Component
+created: 20171017T203041Z
+
+----version----
+language: en
+version: 1
+revision: b2e3c5b3-78ad-42ed-ba61-847768fe94a4
+
+----field----
+field: {5BA1E1AD-C030-453C-ACF8-E486CEC932D1}
+name: Header
+key: header
+content-length: 5
+
+$name
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171012T185542Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b2e3c5b3-78ad-42ed-ba61-847768fe94a4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171017T203041Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

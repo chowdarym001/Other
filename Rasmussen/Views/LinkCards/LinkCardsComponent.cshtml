@@ -1,0 +1,18 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Rasmussen.Models.LinkCardComponent>
+
+<section class="section related-content">
+    <div class="grid-container">
+        <div class="grid-x grid-margin-y">
+            <div class="cell">
+                <header class="section-header">
+                    <h1>@Editable(s => s.Header)Related Content</h1>
+                </header>
+            </div>
+            <div class="cell">
+                <div class="programs-grid grid-x small-up-1 medium-up-2 large-up-3">
+                   @Html.Sitecore().Placeholder("LinkCard") 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

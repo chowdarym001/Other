@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {2C771A2D-3DCF-448C-AA8B-8B5CAD1D82DC}
+database: master
+path: /sitecore/content/SiteContent/Global Components/Tab Components/Tab Sections/Admissions/Online enrollment
+parent: {493C1CDB-949A-4E6D-9BCC-E268A1D264E7}
+name: Online enrollment
+master: {00000000-0000-0000-0000-000000000000}
+template: {CB80F14A-C15B-45C4-AF75-07C1C05F6479}
+templatekey: Tab Section
+created: 20171025T160026Z
+
+----version----
+language: en
+version: 1
+revision: c464d325-7fc4-4e79-a5a5-034b181d102a
+
+----field----
+field: {3FF042DD-C01C-4CE1-999B-961476C25802}
+name: Section Name
+key: section name
+content-length: 17
+
+Online enrollment
+----field----
+field: {3F9009BD-5636-4DE5-AAFE-DBAFC5CEEEA3}
+name: Section Text
+key: section text
+content-length: 47
+
+Basic information that takes just 5-10 minutes.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171025T160026Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c464d325-7fc4-4e79-a5a5-034b181d102a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171025T160209Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

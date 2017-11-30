@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {D112220F-2BB7-4485-97F6-CC1E39C6BB3A}
+database: master
+path: /sitecore/content/SiteContent/List Items Folder/NursingProgramLinkCardComponent
+parent: {C26D2FB7-507F-4713-B1AE-DCD803868D62}
+name: NursingProgramLinkCardComponent
+master: {00000000-0000-0000-0000-000000000000}
+template: {8520CF31-CBD5-4EAC-B726-7B8AF5121D42}
+templatekey: LinkCardComponent
+created: 20171020T162932Z
+
+----version----
+language: en
+version: 1
+revision: e52b4b11-4c61-4c61-aa87-4f5a68613832
+
+----field----
+field: {5BA1E1AD-C030-453C-ACF8-E486CEC932D1}
+name: Header
+key: header
+content-length: 15
+
+Related Content
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171020T162932Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e52b4b11-4c61-4c61-aa87-4f5a68613832
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171020T162949Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

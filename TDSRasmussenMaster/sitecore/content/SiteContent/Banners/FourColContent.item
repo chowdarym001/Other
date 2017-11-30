@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {5C2805A5-71B2-4D95-9C81-93974DC40D41}
+database: master
+path: /sitecore/content/SiteContent/Banners/FourColContent
+parent: {29607970-E83C-43CA-910C-864346ABF184}
+name: FourColContent
+master: {00000000-0000-0000-0000-000000000000}
+template: {14AE493B-43A3-4877-BD27-ABF3FDD33871}
+templatekey: Four Column Component
+created: 20171017T210025Z
+
+----version----
+language: en
+version: 1
+revision: 7252270f-d229-44c1-9546-bb1a99a10a37
+
+----field----
+field: {38D9B2CB-47DA-425F-A046-3B86CC172628}
+name: CTA
+key: cta
+content-length: 157
+
+<link text="Learn About Our Programs" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{03FE68E9-2B54-470B-B7F9-02B4E986D67D}" />
+----field----
+field: {5BA1E1AD-C030-453C-ACF8-E486CEC932D1}
+name: Header
+key: header
+content-length: 28
+
+A student-centered approach.
+----field----
+field: {A159EAD6-CF23-4119-9F4A-ACCCF5A37D8C}
+name: Sub Header
+key: sub header
+content-length: 222
+
+Our guiding principles have always been set by our students. Affordable tuition. Regional accreditation. Innovative programs. How we accomplish these goals will continue to evolve. But who we serve? That remains unchanged.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171012T185643Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7252270f-d229-44c1-9546-bb1a99a10a37
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171017T212112Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

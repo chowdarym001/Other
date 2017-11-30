@@ -1,0 +1,71 @@
+﻿@using Rasmussen.Models
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<IEnumerable<MenuLink>>
+
+<div class="off-canvas position-right off-canvas-absolute" id="offCanvasMobileRightOverlap" data-off-canvas data-transition="overlap">
+    <ul class="menu vertical drilldown menu-lvl-1 menu-offcanvas" data-drilldown>
+        <li class="">
+            <a href="/">Home</a>
+        </li>
+        @foreach (MenuLink menuLink in Model.Where(m => !m.DesktopOnly))
+        {
+            <li class="@(menuLink.HasDivider ? "menu-offcanvas-divider" : "")">
+                @Html.Partial(Consts.Views.MenuLinkPartial, menuLink)
+                @if (menuLink.MenuChildren.Any())
+                {
+                    <ul class="menu vertical menu-lvl-2">
+                        <li class="">
+                            <a href="@(menuLink.Link == null ? "#" : menuLink.Link.Url)">@menuLink.MobileMenuName</a>
+                        </li>
+                        @foreach (MenuLink lvl2Link in menuLink.MenuChildren.Where(m => !m.DesktopOnly))
+                        {
+                            <li class="@(lvl2Link.HasDivider ? "menu-offcanvas-divider" : "indented")">
+                                @Html.Partial(Consts.Views.MenuLinkPartial, lvl2Link)
+                                @if (lvl2Link.MenuChildren.Any())
+                                {
+                                    var lvl3First = lvl2Link.MenuChildren.FirstOrDefault();
+                                    var lvl3Indent = lvl3First != null && lvl3First.IsParent;
+                                    <ul class="menu vertical menu-lvl-3">
+                                        <li class="">
+                                            <a href="@(lvl2Link.Link == null ? "#" : lvl2Link.Link.Url)">@lvl2Link.MobileMenuName</a>
+                                        </li>
+                                        @foreach (MenuLink lvl3Link in lvl2Link.MenuChildren.Where(m => !m.DesktopOnly))
+                                        {
+                                            var hasChildren = lvl3Link.MenuChildren.Any();
+                                            var indentClass = "indented";
+                                            if (!lvl3Indent.Equals(hasChildren))
+                                             {
+                                                 indentClass = "";
+                                             }
+                                            <li class="@(lvl3Link.HasDivider ? "menu-offcanvas-divider" : indentClass)">
+                                                @Html.Partial(Consts.Views.MenuLinkPartial, lvl3Link)
+                                                @if (hasChildren)
+                                                {
+                                                    <ul class="menu vertical menu-lvl-4">
+                                                        <li class="">
+                                                            <a href="@(lvl3Link.Link == null ? "#" : lvl3Link.Link.Url)">@lvl3Link.MobileMenuName</a>
+                                                        </li>
+                                                        @foreach (MenuLink lvl4Link in lvl3Link.MenuChildren.Where(m => !m.DesktopOnly))
+                                                        {
+                                                            <li class="indented">
+                                                                @Html.Partial(Consts.Views.MenuLinkPartial, lvl4Link)
+                                                            </li>
+                                                        }
+                                                    </ul>
+                                                }
+                                            </li>
+                                        }
+                                    </ul>
+                                }
+                            </li>
+                        }
+                    </ul>
+                }
+            </li>
+        }
+    </ul>
+    <button class="close-button" aria-label="Close menu" type="button" data-close>
+        <span aria-hidden="true">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </span>
+    </button>
+</div>

@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {9D9B66E2-2E11-4B10-AF71-96DF96635AB9}
+database: master
+path: /sitecore/templates/User Defined/Content Templates/Grids/Grid Content Card/__Standard Values
+parent: {1A2B68A9-F508-4441-94ED-8A216A406527}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {1A2B68A9-F508-4441-94ED-8A216A406527}
+templatekey: Grid Content Card
+created: 20171012T162003Z
+
+----version----
+language: en
+version: 1
+revision: c3e9fe4d-d65e-4794-8a23-16b48c46a8e3
+
+----field----
+field: {5BA1E1AD-C030-453C-ACF8-E486CEC932D1}
+name: Header
+key: header
+content-length: 5
+
+$name
+----field----
+field: {0C14E9A7-62AC-48F7-A1F0-C6444D6CFB13}
+name: Tag Line
+key: tag line
+content-length: 0
+
+
+----field----
+field: {6C269C5D-3B41-4D3D-86AC-E4B274A9A2A8}
+name: Study Item 1
+key: study item 1
+content-length: 0
+
+
+----field----
+field: {A5F6F408-6480-4195-B85C-7103CD78E908}
+name: Study Item 2
+key: study item 2
+content-length: 0
+
+
+----field----
+field: {2F88367B-5A51-4C67-843E-4DF5C92B133D}
+name: Study Item 3
+key: study item 3
+content-length: 0
+
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171012T162003Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c3e9fe4d-d65e-4794-8a23-16b48c46a8e3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171026T193931Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida

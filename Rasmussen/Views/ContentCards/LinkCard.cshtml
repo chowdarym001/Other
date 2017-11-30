@@ -1,0 +1,25 @@
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Rasmussen.Models.ILinkCard>
+
+
+
+<section class="colorful-border-card @(Model.BorderColor != null ? Model.BorderColor.Value : "")">
+    <header class="angled-bar-header @(Model.BorderColor != null ? Model.BorderColor.Value : "")">
+        <h1 class="angled-bar-header-title">@Editable(s => s.Header)</h1>
+    </header>
+    <div class="colorful-border-card-content">
+        <ul class="no-bullet">
+            @if (IsInEditingMode || Model.Link != null)
+            {
+                <li>
+                    @RenderLink(s => s.Link, new NameValueCollection {{"class", "inline-link-arrow"}}, true)
+                </li>
+            }
+            @if (IsInEditingMode || Model.Link2 != null)
+            {
+                <li>
+                    @RenderLink(s => s.Link2, new NameValueCollection {{"class", "inline-link-arrow"}}, true)
+                </li>
+            }
+        </ul>
+    </div>
+</section>

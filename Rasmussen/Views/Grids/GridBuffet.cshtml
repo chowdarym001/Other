@@ -1,0 +1,32 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Rasmussen.Models.IHeaderTemplate>
+
+<section class="section explore-grid explore-grid-buffet">
+    <div class="grid-x">
+        <div class="cell small-order-1">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-y align-center">
+                    <div class="cell">
+                        <header class="section-header text-center">
+                            <h1 class="section-title-primary">@Editable(h => h.Header)</h1>
+                        </header>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @Html.Partial("~/Views/Grids/FourByFour.cshtml")
+        <div class="cell small-order-6">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-y align-center">
+                    <div class="cell">
+                        <aside class="section-aside text-center">
+                            <h3 class="section-title-tertiary">
+                                @Editable(h => h.SubHeader)
+                                @RenderLink(h => h.CTA, new NameValueCollection { { "class", "inline-link-arrow" } }, true)
+                            </h3>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

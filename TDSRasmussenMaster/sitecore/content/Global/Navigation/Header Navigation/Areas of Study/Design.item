@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {A9095833-7E1A-4F81-AD85-751800EF2335}
+database: master
+path: /sitecore/content/Global/Navigation/Header Navigation/Areas of Study/Design
+parent: {1AC82C0E-F8ED-4C5B-A109-3BB50B012C31}
+name: Design
+master: {00000000-0000-0000-0000-000000000000}
+template: {E87E2B0C-FE35-4D7F-ADD8-2C99D9430E5E}
+templatekey: Top Menu Link
+created: 20171017T140732Z
+
+----version----
+language: en
+version: 1
+revision: ef488f44-c34d-4ace-a2d3-3bc26f11256e
+
+----field----
+field: {F6AC3504-C946-428E-8846-D296FF9CF594}
+name: Display Text
+key: display text
+content-length: 6
+
+Design
+----field----
+field: {17EA72E7-2E79-411A-A042-1B04F3CD86D1}
+name: Mobile Display
+key: mobile display
+content-length: 19
+
+All Design programs
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171017T140732Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ef488f44-c34d-4ace-a2d3-3bc26f11256e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171017T202534Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida

@@ -1,0 +1,108 @@
+----item----
+version: 1
+id: {72999E8F-DC9F-405B-8B46-E6890FA9F8A1}
+database: master
+path: /sitecore/content/SiteContent/Grid Cards/Home Page/Benefits of Competency
+parent: {2366A2C7-522F-4EB9-852E-C5983D3DF1A4}
+name: Benefits of Competency
+master: {00000000-0000-0000-0000-000000000000}
+template: {6E833FB7-55F3-4332-9041-A044AF1825D9}
+templatekey: Grid Image Card
+created: 20171020T212215Z
+
+----version----
+language: en
+version: 1
+revision: 3d1d0e0f-e1f2-4276-bfa4-e688e5540b37
+
+----field----
+field: {5BA1E1AD-C030-453C-ACF8-E486CEC932D1}
+name: Header
+key: header
+content-length: 70
+
+Benefits of Competency-Based Education that will Excite Adult Learners
+----field----
+field: {A159EAD6-CF23-4119-9F4A-ACCCF5A37D8C}
+name: Sub Header
+key: sub header
+content-length: 13
+
+featured post
+----field----
+field: {38D9B2CB-47DA-425F-A046-3B86CC172628}
+name: CTA
+key: cta
+content-length: 114
+
+<link linktype="internal" text="Read more" querystring="" target="" id="{11111111-1111-1111-1111-111111111111}" />
+----field----
+field: {85E8976A-4964-4331-8F53-B34F0E3A3381}
+name: CssClass
+key: cssclass
+content-length: 4
+
+post
+----field----
+field: {7FA0B598-471C-485C-891A-18EBD93503E7}
+name: Small
+key: small
+content-length: 58
+
+<image mediaid="{C332B6E8-4E4A-4BCC-82BE-0EACDB208AF4}" />
+----field----
+field: {D6384562-9268-4721-B804-393F0CCFEA87}
+name: Medium
+key: medium
+content-length: 58
+
+<image mediaid="{49D13D3B-C88D-4DFA-B61B-2452BA00611C}" />
+----field----
+field: {38B8C255-74AE-43B5-8472-D1EB2771C933}
+name: Large
+key: large
+content-length: 58
+
+<image mediaid="{285BD9B0-6AD8-418B-B0F1-7B91D16C1142}" />
+----field----
+field: {CB3FEF0E-23A5-404D-8F06-2B9064748885}
+name: Extra Large
+key: extra large
+content-length: 58
+
+<image mediaid="{47341456-79D2-420E-B80E-87E7AF9049CF}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171020T212215Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3d1d0e0f-e1f2-4276-bfa4-e688e5540b37
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171020T212424Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

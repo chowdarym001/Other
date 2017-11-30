@@ -1,0 +1,74 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<IEnumerable<Rasmussen.Models.MenuLink>>
+
+<div class="utility-nav">
+    <div class="grid-container">
+        <div class="grid-x align-right align-middle">
+            <div class="cell auto show-for-large">
+                <ul class="menu horizontal pipes utility-nav-related">
+                    @foreach (var link in Model)
+                    {
+                        <li>
+                            <a href="@(link.Link != null ? link.Link.Url : "#")">@link.DisplayText</a>
+                        </li>
+                    }
+                </ul>
+            </div>
+            <div class="cell auto">
+                <ul class="menu horizontal utility-nav-main">
+                    <li>
+                        <button class="utility-nav-button utility-nav-toggle-search" aria-label="Open site search" type="button">
+                            <svg class="svg icon-search">
+                                <use xlink:href="#icon-search"></use>
+                            </svg>
+                            <span class="show-for-sr">Search site</span>
+                        </button>
+                    </li>
+                    <li>
+                        <a class="utility-nav-link utility-nav-toggle-call" href="tel:888-549-6755">
+                            <svg class="svg icon-phone">
+                                <use xlink:href="#icon-phone"></use>
+                            </svg>
+                            <span class="show-for-sr">Call Us: 888-549-6755</span>
+                        </a>
+                    </li>
+                    <li>
+                        <button class="utility-nav-button utility-nav-toggle-chat" aria-label="Live Chat" type="button">
+                            <svg class="svg icon-comments-o">
+                                <use xlink:href="#icon-comments-o"></use>
+                            </svg>
+                            <span class="show-for-sr">Live Chat</span>
+                        </button>
+                    </li>
+                    <li>
+                        <a class="utility-nav-link utility-nav-toggle-request" href="#request-info-area" data-smooth-scroll>
+                            <span class="button-label">Request Info</span>
+                            <svg class="svg icon-chevron-right">
+                                <use xlink:href="#icon-chevron-right"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="utility-nav-search">
+    <div class="grid-container">
+        <div class="grid-x align-right">
+            <div class="cell medium-tall-8 large-7">
+                <div class="utility-site-search floated-label-group input-group" data-closable>
+                    <div class="utility-site-search-content">
+                        <label for="site-search">Search our site</label>
+                        <input type="text" id="site-search" name="site-search-input" placeholder="Search our site">
+                        <div class="input-group-button">
+                            <input type="submit" class="button" value="Search Now">
+                        </div>
+                    </div>
+                    <button class="close-button" aria-label="Close alert" type="button">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

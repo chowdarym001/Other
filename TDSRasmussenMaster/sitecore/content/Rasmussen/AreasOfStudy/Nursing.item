@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {50E2DF39-FBA0-4BA3-95B8-076883C82A21}
+database: master
+path: /sitecore/content/Rasmussen/AreasOfStudy/Nursing
+parent: {03FE68E9-2B54-470B-B7F9-02B4E986D67D}
+name: Nursing
+master: {00000000-0000-0000-0000-000000000000}
+template: {83A8428E-77E6-41EF-9F81-AB3530A7E9B5}
+templatekey: Industry Page
+created: 20171026T184609Z
+
+----version----
+language: en
+version: 1
+revision: 1a0d2740-69bf-4b74-b2fe-3eb85d59f354
+
+----field----
+field: {86B47E53-8BD3-459D-88D7-32A8687177C1}
+name: Title
+key: title
+content-length: 7
+
+Nursing
+----field----
+field: {76F8C8F5-562E-4D91-AF07-9DAAE05EB3AC}
+name: Page Class
+key: page class
+content-length: 7
+
+Nursing
+----field----
+field: {13F2A5E3-167D-42FE-95ED-6ED23D8783A0}
+name: Border Color
+key: border color
+content-length: 38
+
+{EDE20E3D-9096-4E4B-A4BE-B7BFF23A3271}
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1880
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{F4FE2E2F-F812-4824-890C-64AC7B9A2FF3}" p:after="p[@uid='{E79CFA2D-5DBA-4680-8CFA-515D4E018BD6}']" s:ds="{27D8B282-F474-4B47-913F-4C2B93BA29C9}" s:id="{053B4EF9-C1F6-473C-9DDA-3E06F8423D6D}" s:ph="/Body/contentcards" /><r uid="{447A1526-9653-4743-A697-1685AC82E990}" p:after="r[@uid='{F4FE2E2F-F812-4824-890C-64AC7B9A2FF3}']" s:ds="{505C9BCC-00A3-4A56-A4E3-1725C3029660}" s:id="{053B4EF9-C1F6-473C-9DDA-3E06F8423D6D}" s:ph="/Body/contentcards" /><r uid="{C248AFE6-983E-4DA8-950D-048660A98968}" p:after="r[@uid='{447A1526-9653-4743-A697-1685AC82E990}']" s:ds="{C24DA0C1-2AFD-42B5-A6E5-C88343F2955D}" s:id="{053B4EF9-C1F6-473C-9DDA-3E06F8423D6D}" s:ph="/Body/contentcards" /><r uid="{BB611C34-E319-48A8-BFA4-2191AB3B6652}" p:after="r[@uid='{C248AFE6-983E-4DA8-950D-048660A98968}']" s:ds="{A8E94992-E055-4C85-85CF-BE3BD42CDFDA}" s:id="{053B4EF9-C1F6-473C-9DDA-3E06F8423D6D}" s:ph="/Body/contentcards" /><r uid="{6B6FEF14-52AB-4950-BCC2-72EADF95FC30}" p:after="r[@uid='{BB611C34-E319-48A8-BFA4-2191AB3B6652}']" s:ds="{4DE0DA4F-154C-455A-8B12-A766BB57CD0D}" s:id="{053B4EF9-C1F6-473C-9DDA-3E06F8423D6D}" s:ph="/Body/contentcards" /><r uid="{B7344EB0-5C74-4F22-BC35-B2AFE5A41E30}" p:after="r[@uid='{6B6FEF14-52AB-4950-BCC2-72EADF95FC30}']" s:ds="{E01F43AA-E799-4775-A1A1-3F1C2D3A5233}" s:id="{053B4EF9-C1F6-473C-9DDA-3E06F8423D6D}" s:ph="/Body/contentcards" /><r uid="{988B1735-4E57-484F-9088-46E26EAAA73C}" p:after="r[@uid='{B7344EB0-5C74-4F22-BC35-B2AFE5A41E30}']" s:ds="{A0C5E6A6-5804-4C91-A284-EDE806CA047E}" s:id="{088DB73C-DAA2-4C65-9606-24978F6928BB}" s:ph="Body" /><r uid="{145D4AD7-BC46-4CF6-9E76-F3DE8811878A}" p:after="r[@uid='{988B1735-4E57-484F-9088-46E26EAAA73C}']" s:ds="{DD7DE951-BCF0-4215-86D9-CF3412911A62}" s:id="{68D5ABB6-1629-4089-A7E1-345D612993C4}" s:ph="Banner" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171026T184609Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1a0d2740-69bf-4b74-b2fe-3eb85d59f354
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171026T211430Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

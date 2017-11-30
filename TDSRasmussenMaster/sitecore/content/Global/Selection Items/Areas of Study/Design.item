@@ -1,0 +1,59 @@
+----item----
+version: 1
+id: {E80C9961-44D9-48FD-A0F4-10166D69712A}
+database: master
+path: /sitecore/content/Global/Selection Items/Areas of Study/Design
+parent: {D11FAA2A-D837-41D2-BBF0-B3B4AE74CB86}
+name: Design
+master: {00000000-0000-0000-0000-000000000000}
+template: {CDD5D241-A069-4C8A-BB77-07DB992DF277}
+templatekey: Selection Item
+created: 20171023T160601Z
+
+----version----
+language: en
+version: 1
+revision: ff877dc7-246f-4ed2-936d-6fc38caee3f8
+
+----field----
+field: {FD7D7E80-5BF1-4F4B-B3C3-4103C9DED83D}
+name: Key
+key: key
+content-length: 6
+
+Design
+----field----
+field: {662992C7-77CB-403D-8DD5-C2CB2E22C4BE}
+name: Text
+key: text
+content-length: 6
+
+design
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171023T160601Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ff877dc7-246f-4ed2-936d-6fc38caee3f8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171023T160713Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida

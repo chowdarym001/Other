@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {4C587647-9AF3-419C-91D1-EB3AAC206467}
+database: master
+path: /sitecore/content/Global/Icons/Comments
+parent: {570D26AC-203B-4F1A-A664-8E16AEF82803}
+name: Comments
+master: {00000000-0000-0000-0000-000000000000}
+template: {4077BB83-B518-48EB-81EB-35FDE375DD1B}
+templatekey: Simple Value Template
+created: 20171025T205032Z
+
+----version----
+language: en
+version: 1
+revision: 614d5913-cfce-41ba-a948-1f459c68c8a4
+
+----field----
+field: {43C72C8D-93CA-4E8E-8BB8-5C80467BAFF9}
+name: Value
+key: value
+content-length: 15
+
+icon-comments-o
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171025T205032Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+614d5913-cfce-41ba-a948-1f459c68c8a4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171025T205039Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida

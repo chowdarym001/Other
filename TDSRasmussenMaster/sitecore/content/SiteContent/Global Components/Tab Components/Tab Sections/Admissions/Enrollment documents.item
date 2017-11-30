@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {2FBCE598-9037-4480-BF03-9CD1A14D6077}
+database: master
+path: /sitecore/content/SiteContent/Global Components/Tab Components/Tab Sections/Admissions/Enrollment documents
+parent: {493C1CDB-949A-4E6D-9BCC-E268A1D264E7}
+name: Enrollment documents
+master: {00000000-0000-0000-0000-000000000000}
+template: {CB80F14A-C15B-45C4-AF75-07C1C05F6479}
+templatekey: Tab Section
+created: 20171025T160325Z
+
+----version----
+language: en
+version: 1
+revision: b641dd2e-c86e-49e7-ac74-1eeb00ba6570
+
+----field----
+field: {3FF042DD-C01C-4CE1-999B-961476C25802}
+name: Section Name
+key: section name
+content-length: 20
+
+Enrollment documents
+----field----
+field: {3F9009BD-5636-4DE5-AAFE-DBAFC5CEEEA3}
+name: Section Text
+key: section text
+content-length: 144
+
+Your program manager will send enrollment documents to sign, have you complete a background check and collect any previous college transcripts.*
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171025T160325Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b641dd2e-c86e-49e7-ac74-1eeb00ba6570
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171025T160430Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

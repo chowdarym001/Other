@@ -1,0 +1,10 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Rasmussen.Models.MenuLink>
+
+@if (IsInEditingMode)
+{
+    <a class="@Model.CssClass" href="@(Model.Link == null ? "#" : Model.Link.Url)">@Editable(Model, l => l.DisplayText)</a>
+}
+else
+{
+    <a class="@Model.CssClass" href="@(Model.Link == null ? "#" : Model.Link.Url)">@Model.MenuName</a>
+}

@@ -1,0 +1,22 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Rasmussen.Models.FooterDisclosure>
+
+                    
+
+    <div class="off-canvas position-bottom site-footer-disclosures is-transition-overlap is-closed" id="offCanvasFooterDisclosures" data-off-canvas="0mh0dq-off-canvas" data-transition="push" aria-hidden="true">
+        <div class="grid-container">
+            <div class="grid-x">
+                <div class="cell">
+                    <div class="site-footer-disclosures-content">
+                        <h3>@Editable(s => s.Header)</h3>
+                        <ol>
+                            <li>@Editable(s => s.SubHeader)</li>
+                            <li>@Editable(s => s.Body) @RenderLink(s => s.CTA, new System.Collections.Specialized.NameValueCollection { { "class", "inline-link-external" } }, true) @Editable(s => s.BodyOne)</li>
+                        </ol>
+                        <button class="close-button" aria-label="Close disclosure content" type="button" data-close="">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,100 @@
+﻿@using Rasmussen.Models
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<IEnumerable<MenuLink>>
+
+<div class="header-nav">
+    <div class="grid-container">
+        <div class="grid-x align-middle align-justify">
+            <div class="cell small-8 large-3 header-nav-branding">
+                <a href="/">
+                    <svg class="svg ras-logo-horizontal">
+                        <use xlink:href="#ras-logo-horizontal"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="cell shrink hide-for-large header-nav-small">
+                <ul class="menu icons icon-top">
+                    <li>
+                        <a href="#" data-toggle="offCanvasMobileRightOverlap">
+                            <svg class="svg icon-bars">
+                                <use xlink:href="#icon-bars"></use>
+                            </svg>
+                            <span>Menu</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="cell large-9 show-for-large header-nav-large">
+                <nav class="mega-menu">
+                    <ul class="menu lvl-1">
+                        @foreach (MenuLink menuLink in Model)
+                        {
+                            if (menuLink.IsParent)
+                            {
+                                <li class="has-dropdown">
+                                    @Html.Partial(Consts.Views.MenuLinkPartial, menuLink)
+                                    <div class="mega-menu-submenu-lvl-1" data-equalizer data-equalize-on="large" id="mega-menu-submenu-areas" data-closable>
+                                        <div class="mega-menu-submenu-lvl-1-container@(menuLink.IsCentered ? " narrow-centered" : "")">
+                                            <button class="close-button" aria-label="Dismiss menu" type="button" data-close="">
+                                                <i class="fa fa-times" aria-hidden="true"></i>
+                                            </button>
+                                            <ul class="menu vertical lvl-2 dropdown" data-equalizer-watch>
+                                                @foreach (MenuLink lvl2Link in menuLink.MenuChildren)
+                                                {
+                                                    if (lvl2Link.IsParent)
+                                                    {
+                                                        <li class="has-dropdown@(lvl2Link.IsActive ? " active" : "")">
+                                                            @Html.Partial(Consts.Views.MenuLinkPartial, lvl2Link)
+                                                            <div class="mega-menu-submenu-lvl-2@(lvl2Link.IsActive ? " active" : "")" data-equalizer-watch>
+                                                                <ul class="menu vertical lvl-3 dropdown">
+                                                                    @foreach (MenuLink lvl3Link in lvl2Link.MenuChildren)
+                                                                    {
+                                                                        if (lvl3Link.IsParent)
+                                                                        {
+                                                                            <li>
+                                                                                @Html.Partial(Consts.Views.MenuLinkPartial, lvl3Link)
+                                                                                <ul class="menu vertical lvl-4">
+                                                                                    @foreach (MenuLink lvl4Link in lvl3Link.MenuChildren)
+                                                                                    {
+                                                                                        <li>
+                                                                                            @Html.Partial(Consts.Views.MenuLinkPartial, lvl4Link)
+                                                                                        </li>
+                                                                                    }
+                                                                                </ul>
+                                                                            </li>
+                                                                        }
+                                                                        else if (!lvl3Link.MobileOnly)
+                                                                        {
+                                                                            <li @(lvl3Link.HasDivider ? "class=divider" : "")>
+                                                                                @Html.Partial(Consts.Views.MenuLinkPartial, lvl3Link)
+                                                                            </li>
+                                                                        }
+                                                                    }
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                    }
+                                                    else if (!lvl2Link.MobileOnly)
+                                                    {
+                                                        <li>
+                                                            @Html.Partial(Consts.Views.MenuLinkPartial, lvl2Link)
+                                                        </li>
+                                                    }
+                                                }
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            }
+                            else if (!menuLink.MobileOnly)
+                            {
+                                <li>
+                                    @Html.Partial(Consts.Views.MenuLinkPartial, menuLink)
+                                </li>
+                            }
+                        }
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>

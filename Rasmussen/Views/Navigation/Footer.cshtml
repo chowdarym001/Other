@@ -1,0 +1,38 @@
+﻿@using Rasmussen.Models
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<IEnumerable<MenuLink>>
+
+<div class="site-footer-links">
+    <div class="grid-container">
+        <div class="grid-x grid-padding-y small-up-1 small-wide-up-2 medium-up-3">
+@foreach (MenuLink menuLink in Model)
+{
+    if (menuLink.IsParent)
+    {
+        menuLink.CssClass = "menu-title";
+            <div class="cell cell-block">
+                <ul class="menu vertical">
+               
+                    <li>
+                        @Html.Partial(Consts.Views.MenuLinkPartial, menuLink)
+                       
+                    </li>
+                    @foreach (MenuLink lvl2Link in menuLink.MenuChildren)
+
+                    {
+
+                    <li>
+                   
+                            @Html.Partial(Consts.Views.MenuLinkPartial, lvl2Link)
+                        
+                    </li>
+                    
+                    }
+
+                    
+                </ul>
+            </div>
+    }
+}
+        </div>
+    </div>
+</div>

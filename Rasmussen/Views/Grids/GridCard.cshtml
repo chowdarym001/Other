@@ -1,0 +1,15 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Rasmussen.Models.GridSimpleCard>
+
+<div class="cell medium-6 explore-grid-cell @(Model.BorderColor != null ? Model.BorderColor.Value : "")">
+    <div class="grid-container">
+        <div class="grid-x">
+            <article class="explore-grid-content light-on-dark">
+                <h6 class="section-title-senary">@Editable(g => g.SubHeader)</h6>
+                <h3 class="section-title-tertiary">@Editable(g => g.Header)</h3>
+                <p>
+                    @RenderLink(h => h.CTA, new NameValueCollection { { "class", "inline-link-arrow" } }, true)
+                </p>
+            </article>
+        </div>
+    </div>
+</div>

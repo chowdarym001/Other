@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {333EA69B-5299-4320-B997-F1A03A383634}
+database: master
+path: /sitecore/content/Global/Navigation/Header Navigation/Areas of Study/Design/Graphic Design
+parent: {A9095833-7E1A-4F81-AD85-751800EF2335}
+name: Graphic Design
+master: {00000000-0000-0000-0000-000000000000}
+template: {E87E2B0C-FE35-4D7F-ADD8-2C99D9430E5E}
+templatekey: Top Menu Link
+created: 20171017T141421Z
+
+----version----
+language: en
+version: 1
+revision: 0d6bebcc-f3e8-410d-891f-e39701e88287
+
+----field----
+field: {F6AC3504-C946-428E-8846-D296FF9CF594}
+name: Display Text
+key: display text
+content-length: 14
+
+Graphic Design
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171017T141421Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0d6bebcc-f3e8-410d-891f-e39701e88287
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171017T141421Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida

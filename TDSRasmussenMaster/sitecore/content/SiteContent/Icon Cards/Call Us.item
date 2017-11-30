@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {26C8AE25-7300-4598-91D7-1A98DBDBB020}
+database: master
+path: /sitecore/content/SiteContent/Icon Cards/Call Us
+parent: {1275771E-B696-4845-9934-45163B7578A4}
+name: Call Us
+master: {00000000-0000-0000-0000-000000000000}
+template: {8B07929B-AC7A-42E6-983F-66294522DEE3}
+templatekey: Icon Card
+created: 20171025T210731Z
+
+----version----
+language: en
+version: 1
+revision: ea95bbf4-a2a7-43aa-831c-5e31a8d25792
+
+----field----
+field: {5BA1E1AD-C030-453C-ACF8-E486CEC932D1}
+name: Header
+key: header
+content-length: 7
+
+Call Us
+----field----
+field: {45489C80-85E9-42D4-860D-E8E6B1548351}
+name: Header Is Link
+key: header is link
+content-length: 1
+
+1
+----field----
+field: {F6AC3504-C946-428E-8846-D296FF9CF594}
+name: Display Text
+key: display text
+content-length: 8
+
+[NUMBER]
+----field----
+field: {851B23BC-6EAC-4317-8173-DC203A9EE63C}
+name: Icon
+key: icon
+content-length: 38
+
+{C3E046BF-E2CB-40EF-A808-7F58B6623A47}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171025T210731Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ea95bbf4-a2a7-43aa-831c-5e31a8d25792
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171025T211713Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

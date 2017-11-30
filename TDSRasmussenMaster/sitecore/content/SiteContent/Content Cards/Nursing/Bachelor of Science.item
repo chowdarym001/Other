@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {C24DA0C1-2AFD-42B5-A6E5-C88343F2955D}
+database: master
+path: /sitecore/content/SiteContent/Content Cards/Nursing/Bachelor of Science
+parent: {EDCC5DDE-8CDB-4386-A423-6C860B792934}
+name: Bachelor of Science
+master: {00000000-0000-0000-0000-000000000000}
+template: {98A26C25-DBE3-436F-AAB9-E18BA412F7E0}
+templatekey: LinkCard
+created: 20171026T203400Z
+
+----version----
+language: en
+version: 1
+revision: 79f451a5-4c5f-43bf-bbf1-2d45f6ce0aca
+
+----field----
+field: {5BA1E1AD-C030-453C-ACF8-E486CEC932D1}
+name: Header
+key: header
+content-length: 30
+
+Bachelor of Science in Nursing
+----field----
+field: {EFC9810D-0F43-42DA-9CBC-6A186FD74A5D}
+name: Link 2
+key: link 2
+content-length: 122
+
+<link linktype="internal" text="Bachelor's Degree" querystring="" target="" id="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171026T203400Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+79f451a5-4c5f-43bf-bbf1-2d45f6ce0aca
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171026T203641Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

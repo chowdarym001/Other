@@ -1,0 +1,32 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Rasmussen.Models.IPageNavigation>
+
+<section class="section basic-2col intro-nav">
+    <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+            <div class="cell medium-tall-7 large-8">
+                <section class="basic-2col-content">
+                    @if (!IsInEditingMode && !string.IsNullOrWhiteSpace(Model.Header))
+                    {
+                        <h2 class="section-title-primary">@Editable(p => p.Header)</h2>
+                    }
+                    <p class="section-lead-in">@Editable(p => p.DisplayText)</p>
+                </section>
+            </div>
+            <div class="cell medium-tall-5 large-4">
+                <section class="basic-2col-content">
+                    <div class="page-nav">
+                        <h4 class="section-title-quaternary">@Editable(p => p.NavigationHeader)</h4>
+                        <ul data-smooth-scroll>
+
+                        </ul>
+                    </div>
+                    <hr class="rule-stripe-vertical ras">
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
+@if (!IsInEditingMode)
+{
+    @Scripts.Render("~/bundles/js/pagenavigation")
+}

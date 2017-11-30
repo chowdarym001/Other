@@ -1,0 +1,45 @@
+----item----
+version: 1
+id: {850801F8-269D-4FEB-9365-03155570542A}
+database: master
+path: /sitecore/content/SiteContent/Global Components/Tab Components/Tabs/Admissions
+parent: {FDE1EDF9-6C2D-48A7-A644-9310C72087E8}
+name: Admissions
+master: {00000000-0000-0000-0000-000000000000}
+template: {F849477E-AF07-45AA-BEAF-BF3857C1221E}
+templatekey: Tabs Folder
+created: 20171025T151158Z
+
+----version----
+language: en
+version: 1
+revision: dde8bc37-74b2-46dc-ba22-360e1dd2ab33
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171025T151158Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dde8bc37-74b2-46dc-ba22-360e1dd2ab33
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171025T151158Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida

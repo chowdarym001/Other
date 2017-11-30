@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {925B3F8F-E49D-44EF-A140-B1C25B207C44}
+database: master
+path: /sitecore/content/SiteContent/Global Components/Tab Components/Tabs/Admissions/Nursing Students
+parent: {850801F8-269D-4FEB-9365-03155570542A}
+name: Nursing Students
+master: {00000000-0000-0000-0000-000000000000}
+template: {87C4FC97-E6B6-4CE7-9D1F-4F1FDBFAEE57}
+templatekey: Tab Component
+created: 20171025T160550Z
+
+----version----
+language: en
+version: 1
+revision: 91a2bc66-7df8-42b4-9549-0c6672504228
+
+----field----
+field: {1D2BD8DC-05D2-42BF-BCEC-D1B62535795F}
+name: Tab Name
+key: tab name
+content-length: 16
+
+Nursing Students
+----field----
+field: {F6AC3504-C946-428E-8846-D296FF9CF594}
+name: Display Text
+key: display text
+content-length: 224
+
+One of the most in-demand jobs-nursing-is also one of the most sought-after programs. You won’t wait to start or advance your education with us-many programs have no wait list for qualified candidates and four starts a year.
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171025T160550Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+91a2bc66-7df8-42b4-9549-0c6672504228
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171025T161407Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

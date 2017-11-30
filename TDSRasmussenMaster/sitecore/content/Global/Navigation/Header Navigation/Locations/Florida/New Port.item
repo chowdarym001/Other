@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {4AB40811-442B-404B-AC04-40523F4170B9}
+database: master
+path: /sitecore/content/Global/Navigation/Header Navigation/Locations/Florida/New Port
+parent: {134FD290-E0CD-4C7A-85E3-E4F966657EA0}
+name: New Port
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F80CBD-B1B3-4EC7-BFCA-24539C518545}
+templatekey: Menu Link
+created: 20171017T143733Z
+
+----version----
+language: en
+version: 1
+revision: adbb70c9-38dc-4972-b92e-5e99d562d8b4
+
+----field----
+field: {F6AC3504-C946-428E-8846-D296FF9CF594}
+name: Display Text
+key: display text
+content-length: 26
+
+New Port Richey/West Pasco
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171017T143733Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+adbb70c9-38dc-4972-b92e-5e99d562d8b4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171017T143741Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida

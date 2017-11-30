@@ -1,0 +1,20 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Rasmussen.Models.IIconCardComponent>
+
+<section class="section basic-3col-actions @(Model.BackgroundColor != null ? Model.BackgroundColor.Value : "")">
+    <div class="grid-container">
+        <div class="grid-x grid-margin-y">
+            <div class="cell">
+                <header class="section-header light-on-dark text-center">
+                    <h1 class="section-title-primary">@Editable(i => i.Header)</h1>
+                    @if (IsInEditingMode || !string.IsNullOrWhiteSpace(Model.DisplayText))
+                    {
+                        <p>@Editable(i => i.DisplayText)</p>
+                    }
+                </header>
+                <div class="grid-x grid-margin-x grid-margin-y align-middle align-center small-up-1 medium-up-3">
+                    @Html.Sitecore().DynamicPlaceholder("iconcards")
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

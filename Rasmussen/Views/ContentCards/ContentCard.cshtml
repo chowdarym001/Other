@@ -1,0 +1,39 @@
+﻿@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<Rasmussen.Models.GridContentCard>
+
+@{
+    var borderColor = Model.BorderColor != null ? Model.BorderColor.Value : "";
+}
+
+<section class="colorful-border-card @borderColor">
+    <header class="angled-bar-header @borderColor">
+        <h1 class="angled-bar-header-title">@Editable(s => s.Header)</h1>
+    </header>
+    <div class="colorful-border-card-content">
+        @if (IsInEditingMode || !string.IsNullOrWhiteSpace(Model.TagLine))
+        {
+            <p>@Editable(s => s.TagLine)</p>
+        }
+        <ul>
+            @if (IsInEditingMode || !string.IsNullOrWhiteSpace(Model.StudyItem1))
+            {
+                <li>@Editable(s => s.StudyItem1)</li>
+            }
+            @if (IsInEditingMode || !string.IsNullOrWhiteSpace(Model.StudyItem2))
+            {
+                <li>@Editable(s => s.StudyItem2)</li>
+            }
+            @if (IsInEditingMode || !string.IsNullOrWhiteSpace(Model.StudyItem3))
+            {
+                <li>@Editable(s => s.StudyItem3)</li>
+            }
+        </ul>
+        @if (IsInEditingMode)
+        {
+            @RenderLink(s => s.Link, new NameValueCollection {{"class", "button"}}, true)
+        }
+        else if (Model.Link != null)
+        {
+            <a href="@(string.IsNullOrWhiteSpace(Model.Link.Url) ? "#" : Model.Link.Url)" class="button">@Model.Link.Text</a>
+        }
+    </div>
+</section>

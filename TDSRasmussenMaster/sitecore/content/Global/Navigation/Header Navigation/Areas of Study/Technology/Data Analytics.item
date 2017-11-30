@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {EE0AC34C-DBFC-443C-A2C1-769B913026FB}
+database: master
+path: /sitecore/content/Global/Navigation/Header Navigation/Areas of Study/Technology/Data Analytics
+parent: {08178A21-F611-4782-83FF-98BF4EADFDD8}
+name: Data Analytics
+master: {00000000-0000-0000-0000-000000000000}
+template: {E87E2B0C-FE35-4D7F-ADD8-2C99D9430E5E}
+templatekey: Top Menu Link
+created: 20171017T142756Z
+
+----version----
+language: en
+version: 1
+revision: ccf9a31a-6418-4048-ac6c-080affa5b3a2
+
+----field----
+field: {F6AC3504-C946-428E-8846-D296FF9CF594}
+name: Display Text
+key: display text
+content-length: 14
+
+Data Analytics
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171017T142756Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ccf9a31a-6418-4048-ac6c-080affa5b3a2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171017T142756Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida

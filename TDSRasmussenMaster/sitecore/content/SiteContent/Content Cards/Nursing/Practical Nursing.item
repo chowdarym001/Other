@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {27D8B282-F474-4B47-913F-4C2B93BA29C9}
+database: master
+path: /sitecore/content/SiteContent/Content Cards/Nursing/Practical Nursing
+parent: {EDCC5DDE-8CDB-4386-A423-6C860B792934}
+name: Practical Nursing
+master: {00000000-0000-0000-0000-000000000000}
+template: {98A26C25-DBE3-436F-AAB9-E18BA412F7E0}
+templatekey: LinkCard
+created: 20171026T185122Z
+
+----version----
+language: en
+version: 1
+revision: fb1409c9-b633-4571-ae11-e1fc8844d21d
+
+----field----
+field: {5BA1E1AD-C030-453C-ACF8-E486CEC932D1}
+name: Header
+key: header
+content-length: 17
+
+Practical Nursing
+----field----
+field: {66B7D62E-37E1-474B-88BA-853355EF6C84}
+name: Link
+key: link
+content-length: 136
+
+<link linktype="internal" text="Explore this program" anchor="#" querystring="" target="" id="{11111111-1111-1111-1111-111111111111}" />
+----field----
+field: {EFC9810D-0F43-42DA-9CBC-6A186FD74A5D}
+name: Link 2
+key: link 2
+content-length: 134
+
+<link linktype="internal" text="Associate's Degree" anchor="#" querystring="" target="" id="{11111111-1111-1111-1111-111111111111}" />
+----field----
+field: {637E842D-C7FF-45A3-A0F4-C8F6D48A651C}
+name: Border Color
+key: border color
+content-length: 38
+
+{EDE20E3D-9096-4E4B-A4BE-B7BFF23A3271}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171026T185122Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fb1409c9-b633-4571-ae11-e1fc8844d21d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171026T202957Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

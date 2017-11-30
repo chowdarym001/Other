@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {E767AED6-A487-4CF8-96B9-0906CA7A29F5}
+database: master
+path: /sitecore/layout/Renderings/Rasmussen/View Renderings/Components/Search Wizard
+parent: {EB97FCA2-0092-4013-A57C-1FCD960F4491}
+name: Search Wizard
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+created: 20171023T161806Z
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 42
+
+/Views/GlobalComponent/SearchWizard.cshtml
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 62
+
+/sitecore/content/SiteContent/Global Components/Search Wizards
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 81
+
+/sitecore/templates/User Defined/Content Templates/Global Component/Search Wizard
+----field----
+field: {A2F5D9DF-8CBA-4A1D-99EB-51ACB94CB057}
+name: Page Editor Buttons
+key: page editor buttons
+content-length: 38
+
+{965C74B5-3AFF-41FF-B505-4435FDF0F4A5}
+----field----
+field: {C7C26117-DBB1-42B2-AB5E-F7223845CCA3}
+name: __Thumbnail
+key: __thumbnail
+content-length: 58
+
+<image mediaid="{9D0066A8-D0AF-4344-A6F2-57E58DDD6404}" />
+----version----
+language: en
+version: 1
+revision: ce55116d-ba37-4539-89f0-95cfcb66d2fc
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20171023T161806Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 17
+
+sitecore\mtschida
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ce55116d-ba37-4539-89f0-95cfcb66d2fc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20171025T151247Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\mtschida
